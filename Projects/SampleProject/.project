@@ -1,0 +1,196 @@
+{
+  "id" : "SampleProject",
+  "name" : "SampleProject",
+  "attributes" : [ ],
+  "tags" : [ ],
+  "_meta" : [ {
+    "type" : "attribute",
+    "name" : "scenario",
+    "desc" : "High level classification of test requirement/cases grouped together",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@smoke",
+    "desc" : "Non-exhaustive set of tests that aim at ensuring that the most important functions work",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@uat",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@load",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "NewScenario",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Access to Zero Bank Portal",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ {
+      "name" : "feature.line",
+      "value" : "1"
+    } ],
+    "tags" : [ ]
+  } ],
+  "data" : [ {
+    "id" : "NewScenario#NewTestCase",
+    "name" : "NewTestCase",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "NewScenario"
+    } ]
+  }, {
+    "id" : "Unsuccessful logon to Zero Bank Portal",
+    "name" : "Unsuccessful logon to Zero Bank Portal",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Access to Zero Bank Portal"
+    }, {
+      "name" : "feature.children.line",
+      "value" : "3"
+    }, {
+      "name" : "feature.children.name",
+      "value" : "Unsuccessful logon to Zero Bank Portal"
+    }, {
+      "name" : "feature.children.keyword",
+      "value" : "Scenario"
+    } ]
+  }, {
+    "id" : "User is in Zero Bank Home Page",
+    "name" : "User is in Zero Bank Home Page",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Access to Zero Bank Portal"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "4"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User is in Zero Bank Home Page"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Given "
+    } ]
+  }, {
+    "id" : "User Opts for Signin",
+    "name" : "User Opts for Signin",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Access to Zero Bank Portal"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "5"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User Opts for Signin"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "When "
+    } ]
+  }, {
+    "id" : "User Enters Credentials and Signin",
+    "name" : "User Enters Credentials and Signin",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Access to Zero Bank Portal"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "6"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User Enters Credentials and Signin"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "Error Msg is Displayed",
+    "name" : "Error Msg is Displayed",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Access to Zero Bank Portal"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "7"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "Error Msg is Displayed"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Then "
+    } ]
+  }, {
+    "id" : "Successful logon to Zero Bank Portal",
+    "name" : "Successful logon to Zero Bank Portal",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Access to Zero Bank Portal"
+    }, {
+      "name" : "feature.children.line",
+      "value" : "9"
+    }, {
+      "name" : "feature.children.name",
+      "value" : "Successful logon to Zero Bank Portal"
+    }, {
+      "name" : "feature.children.keyword",
+      "value" : "Scenario"
+    } ]
+  }, {
+    "id" : "User is in Account Summary page",
+    "name" : "User is in Account Summary page",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Access to Zero Bank Portal"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "13"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User is in Account Summary page"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Then "
+    } ]
+  }, {
+    "id" : "User Logs Out",
+    "name" : "User Logs Out",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Access to Zero Bank Portal"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "14"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User Logs Out"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  } ]
+}

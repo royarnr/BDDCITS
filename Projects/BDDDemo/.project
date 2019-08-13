@@ -1,0 +1,332 @@
+{
+  "id" : "BDDDemo",
+  "name" : "BDDDemo",
+  "attributes" : [ ],
+  "tags" : [ ],
+  "_meta" : [ {
+    "type" : "attribute",
+    "name" : "scenario",
+    "desc" : "High level classification of test requirement/cases grouped together",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@smoke",
+    "desc" : "Non-exhaustive set of tests that aim at ensuring that the most important functions work",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@uat",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@load",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Get a Quote",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ {
+      "name" : "feature.line",
+      "value" : "1"
+    } ],
+    "tags" : [ ]
+  } ],
+  "data" : [ {
+    "id" : "Car Insurance Quote in Ontario",
+    "name" : "Car Insurance Quote in Ontario",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.line",
+      "value" : "3"
+    }, {
+      "name" : "feature.children.name",
+      "value" : "Car Insurance Quote in Ontario"
+    }, {
+      "name" : "feature.children.keyword",
+      "value" : "Scenario"
+    } ]
+  }, {
+    "id" : "User is in TD Insurance Home Page",
+    "name" : "User is in TD Insurance Home Page",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "4"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User is in TD Insurance Home Page"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Given "
+    } ]
+  }, {
+    "id" : "User Opts for Car Quote",
+    "name" : "User Opts for Car Quote",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "5"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User Opts for Car Quote"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "When "
+    } ]
+  }, {
+    "id" : "Validates Auto Inusrance Quote Screen",
+    "name" : "Validates Auto Inusrance Quote Screen",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "6"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "Validates Auto Inusrance Quote Screen"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "Enters Car Details",
+    "name" : "Enters Car Details",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "7"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "Enters Car Details"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "Enters Driver Details",
+    "name" : "Enters Driver Details",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "8"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "Enters Driver Details"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "Enters Claims _ History",
+    "name" : "Enters Claims _ History",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "9"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "Enters Claims & History"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "Quote Summary is Created",
+    "name" : "Quote Summary is Created",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "10"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "Quote Summary is Created"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Then "
+    } ]
+  }, {
+    "id" : "Home Insurance Quote in Ontario",
+    "name" : "Home Insurance Quote in Ontario",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.line",
+      "value" : "13"
+    }, {
+      "name" : "feature.children.name",
+      "value" : "Home Insurance Quote in Ontario"
+    }, {
+      "name" : "feature.children.keyword",
+      "value" : "Scenario"
+    } ]
+  }, {
+    "id" : "User Opts for Home Quote",
+    "name" : "User Opts for Home Quote",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "15"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User Opts for Home Quote"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "When "
+    } ]
+  }, {
+    "id" : "Enter Home Address",
+    "name" : "Enter Home Address",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "16"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "Enter Home Address"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "Enter Building Details",
+    "name" : "Enter Building Details",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "17"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "Enter Building Details"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "Enters Home _ Property Details",
+    "name" : "Enters Home _ Property Details",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "18"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "Enters Home & Property Details"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "Enters Heating _ Ventilation Details",
+    "name" : "Enters Heating _ Ventilation Details",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "19"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "Enters Heating & Ventilation Details"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "Enters Savings _ Discounts",
+    "name" : "Enters Savings _ Discounts",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "20"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "Enters Savings & Discounts"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "Enters About You",
+    "name" : "Enters About You",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "21"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "Enters About You"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "Enters Use of Information",
+    "name" : "Enters Use of Information",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Get a Quote"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "22"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "Enters Use of Information"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  } ]
+}

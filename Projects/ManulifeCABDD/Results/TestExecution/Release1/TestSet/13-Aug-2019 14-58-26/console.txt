@@ -1,0 +1,152 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_172
+java.home            : C:\Program Files\Java\jdk1.8.0_172\jre
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Tue Aug 13 14:58:26 IST 2019
+Loading Browser Profile
+Loading RunManager
+[Scenario:Links in left navigation pane] [TestCase: Validate links in left navigation pane] [Description: Validate links in left navigation pane] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//Release1/TestSet]
+----------------------------------------------------------
+Initializing Report
+[main] INFO com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for the testset
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 33326
+Only local connections are allowed.
+2019-08-13 14:58:43:08S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://www.manulife.ca/ | Conditon:  | @13-Aug-2019 14:58:43.043
+[DONE]   | Opened Url: https://www.manulife.ca/
+
+===================================================================================================
+
+Step:1   | Object: Plan and Learn | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 14:58:54.054
+Using @relative_xpath [//a[@aria-label='Plan and learn menu item']], Object 'Plan and Learn' Found in 186 ms
+[PASS]   | Element [Plan and Learn] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: Group Plans | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 14:59:06.006
+2019-08-13 14:59:16:08S +0530 [OFF ] com.cognizant.cognizantits.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.drivers.AutomationObject$$Lambda$124/1039819792@43df6183 (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LT065750', ip: '10.227.192.154', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51289}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\579572\AppData\Local\Temp\scoped_dir8484_8921}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.121, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5b6a35b1b4735f8fdd81ac1297e32f62
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getElements(AutomationObject.java:303)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getWElements(AutomationObject.java:255)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElements(AutomationObject.java:242)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:118)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:111)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:93)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:387)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Couldn't find Object 'Group Plans' in stipulated Time '10' Seconds
+[FAIL]   | Seems Like the Element [Group Plans] is Not Present/Found in the page Try Adding wait or heal it
+
+===================================================================================================
+
+2019-08-13 14:59:25:08S +0530 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onRuntimeException:Seems Like the Element [Group Plans] is Not Present/Found in the page Try Adding wait or heal it
+com.cognizant.cognizantits.engine.execution.exception.element.ElementException: Seems Like the Element [Group Plans] is Not Present/Found in the page Try Adding wait or heal it
+	at com.cognizant.cognizantits.engine.commands.General.elementDisplayed(General.java:57)
+	at com.cognizant.cognizantits.engine.commands.AssertElement.assertElementDisplayed(AssertElement.java:69)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:387)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Step:1   | Object: Insurance | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 14:59:25.025
+Using @relative_xpath [(//a[@aria-label='Insurance menu item'])[1]], Object 'Insurance' Found in 17 ms
+[PASS]   | Element [Insurance] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: Investments | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 14:59:33.033
+Using @relative_xpath [(//a[@aria-label='Investments menu item'])[1]], Object 'Investments' Found in 18 ms
+[PASS]   | Element [Investments] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: Banking | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 14:59:41.041
+Using @relative_xpath [(//a[@aria-label='Banking menu item'])[1]], Object 'Banking' Found in 18 ms
+[PASS]   | Element [Banking] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: Vitality | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 14:59:50.050
+Using @relative_xpath [(//a[@aria-label='Vitality menu item'])[1]], Object 'Vitality' Found in 18 ms
+[PASS]   | Element [Vitality] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: Support | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 14:59:58.058
+Using @relative_xpath [(//a[@aria-label='Support menu item'])[1]], Object 'Support' Found in 18 ms
+[PASS]   | Element [Support] is Displayed
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Links in left navigation pane:Validate links in left navigation pane
+Executed Steps       : 8
+Passed Steps         : 7
+Failed Steps         : 1
+Time Taken           : 00:01:42
+-----------------------------------------------------
+
+Run Finished on Tue Aug 13 15:00:10 IST 2019
+-----------------------------------------------------
+ExecutionDate        : 13-Aug-2019 14-58-26
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:01:42
+ReportPath           : file:///Projects\ManulifeCABDD\Results\TestExecution\Release1\TestSet\13-Aug-2019 14-58-26\summary.html
+-----------------------------------------------------
+[main] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - D:\cognizant-intelligent-test-scripter-1.1\Projects\ManulifeCABDD\Results\TestExecution\Release1\TestSet\13-Aug-2019 14-58-26\summary.html
+[main] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [D:\cognizant-intelligent-test-scripter-1.1\Projects\ManulifeCABDD\Results\TestExecution\Release1\TestSet\13-Aug-2019 14-58-26\summary.html]

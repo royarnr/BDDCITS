@@ -1,0 +1,3 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,Links in left navigation pane,Validate links in left navigation pane,Single,Passed,Chrome,Default,Any
+true,Links in left navigation pane,Validate Group Plans home page,Single,Failed,Chrome,Default,Any

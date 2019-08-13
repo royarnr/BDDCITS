@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Start typing a Canadian address here (Example: 1 Main St),And  Enter Home Address,Click,,,Homeaddressdetails
+2,Start typing a Canadian address here (Example: 1 Main St),Enter the value [<Data>] in the Field [<Object>],Set,"@2-152 Rue Ontario E, MONTRÉAL QC H2X 1H1",,Homeaddressdetails
+3,Browser,Wait for [<Data>] milli seconds,pause,@5000,,
+4,"2-152 Rue Ontario EMontréal, Q","Click the [<Object>] ",Click,,,Homeaddressdetails
+5,For questions ortechnical supp,"Click the [<Object>] ",Click,,,Homeaddressdetails
+6,Browser,Wait for [<Data>] milli seconds,pause,@5000,,
+7,Next: Your home,"Click the [<Object>] ",Click,,,Homeaddressdetails
+8,Browser,Wait for [<Data>] milli seconds,pause,@3000,,

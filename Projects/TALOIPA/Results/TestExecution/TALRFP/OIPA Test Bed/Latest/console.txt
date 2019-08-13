@@ -1,0 +1,260 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_181
+java.home            : C:\Program Files\Java\jre1.8.0_181
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Tue May 21 12:28:35 IST 2019
+Loading Browser Profile
+Loading RunManager
+[Scenario:OIPA] [TestCase: Add Activity and Validate Status] [Description: Add Activity and Validate Status] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//TALRFP/OIPA Test Bed]
+----------------------------------------------------------
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 2436
+Only local connections are allowed.
+2019-05-21 12:28:50:05S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @http://10.223.68.91:7010/PASJava/ | Conditon:  | @21-May-2019 12:28:50.050
+[DONE]   | Opened Url: http://10.223.68.91:7010/PASJava/
+
+===================================================================================================
+
+Step:2   | Object: txtClientNo | Action: Set | Input: @nathanu | Conditon:  | @21-May-2019 12:28:51.051
+Using @id [userName], Object 'txtClientNo' Found in 6182 ms
+[DONE]   | Entered Text 'nathanu' on 'txtClientNo'
+
+===================================================================================================
+
+Step:3   | Object: txtPersonalID | Action: Set | Input: @nathanu | Conditon:  | @21-May-2019 12:28:58.058
+Using @id [password], Object 'txtPersonalID' Found in 28 ms
+[DONE]   | Entered Text 'nathanu' on 'txtPersonalID'
+
+===================================================================================================
+
+Step:4   | Object: btnLogin | Action: Click | Input:  | Conditon:  | @21-May-2019 12:28:58.058
+Using @id [submit], Object 'btnLogin' Found in 24 ms
+[DONE]   | Clicking on btnLogin
+
+===================================================================================================
+
+Step:5   | Object: btnCreate | Action: waitForElementToBeVisible | Input:  | Conditon:  | @21-May-2019 12:29:00.000
+Using @relative_xpath [//label[text()='Create']], Object 'btnCreate' Found in 1735 ms
+[DONE]   | 'btnCreate' Element becomes visible in stipulated time
+
+===================================================================================================
+
+Step:6   | Object: linkAdvancedSearch | Action: Click | Input:  | Conditon:  | @21-May-2019 12:29:02.002
+Using @id [advanceSearchLink], Object 'linkAdvancedSearch' Found in 25 ms
+[DONE]   | Clicking on linkAdvancedSearch
+
+===================================================================================================
+
+Step:7   | Object: dropdownPolicyStatus | Action: waitForElementToBeVisible | Input:  | Conditon:  | @21-May-2019 12:29:02.002
+Using @id [oj-select-choice-StatusCode_Policy], Object 'dropdownPolicyStatus' Found in 2299 ms
+[DONE]   | 'dropdownPolicyStatus' Element becomes visible in stipulated time
+
+===================================================================================================
+
+Step:8   | Object: dropdownPolicyStatus | Action: Click | Input:  | Conditon:  | @21-May-2019 12:29:05.005
+Using @id [oj-select-choice-StatusCode_Policy], Object 'dropdownPolicyStatus' Found in 18 ms
+[DONE]   | Clicking on dropdownPolicyStatus
+
+===================================================================================================
+
+Step:9   | Object: optionActive | Action: Click | Input:  | Conditon:  | @21-May-2019 12:29:05.005
+Using @relative_xpath [//div[text()='Active']], Object 'optionActive' Found in 21 ms
+[DONE]   | Clicking on optionActive
+
+===================================================================================================
+
+Step:10  | Object: btnSearch | Action: Click | Input:  | Conditon:  | @21-May-2019 12:29:05.005
+Using @xpath [//span[text()='Search']], Object 'btnSearch' Found in 26 ms
+[DONE]   | Clicking on btnSearch
+
+===================================================================================================
+
+Step:11  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @21-May-2019 12:29:06.006
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:12  | Object: linkFirstPolicy | Action: waitForElementToBeVisible | Input:  | Conditon:  | @21-May-2019 12:29:08.008
+Using @xpath [(//a[@class='row-link'])[1]], Object 'linkFirstPolicy' Found in 25 ms
+[DONE]   | 'linkFirstPolicy' Element becomes visible in stipulated time
+
+===================================================================================================
+
+Step:13  | Object: linkFirstPolicy | Action: clickByJS | Input:  | Conditon:  | @21-May-2019 12:29:11.011
+Using @xpath [(//a[@class='row-link'])[1]], Object 'linkFirstPolicy' Found in 16 ms
+[DONE]   | Clicked on linkFirstPolicy
+
+===================================================================================================
+
+Step:14  | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @21-May-2019 12:29:11.011
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:15  | Object: linkAddActivity | Action: waitForElementToBeVisible | Input:  | Conditon:  | @21-May-2019 12:29:14.014
+Using @relative_xpath [//span[text()='Add Activity']], Object 'linkAddActivity' Found in 30 ms
+[DONE]   | 'linkAddActivity' Element becomes visible in stipulated time
+
+===================================================================================================
+
+Step:16  | Object: linkAddActivity | Action: Click | Input:  | Conditon:  | @21-May-2019 12:29:14.014
+Using @relative_xpath [//span[text()='Add Activity']], Object 'linkAddActivity' Found in 16 ms
+[DONE]   | Clicking on linkAddActivity
+
+===================================================================================================
+
+Step:17  | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @21-May-2019 12:29:14.014
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:18  | Object: dropdownAddActivity | Action: waitForElementToBeVisible | Input:  | Conditon:  | @21-May-2019 12:29:17.017
+Using @id [oj-select-choice-selectActivityCombo], Object 'dropdownAddActivity' Found in 29 ms
+[DONE]   | 'dropdownAddActivity' Element becomes visible in stipulated time
+
+===================================================================================================
+
+Step:19  | Object: dropdownAddActivity | Action: Click | Input:  | Conditon:  | @21-May-2019 12:29:17.017
+Using @id [oj-select-choice-selectActivityCombo], Object 'dropdownAddActivity' Found in 19 ms
+[DONE]   | Clicking on dropdownAddActivity
+
+===================================================================================================
+
+Step:20  | Object: optionDeathNotification | Action: Click | Input:  | Conditon:  | @21-May-2019 12:29:18.018
+Using @relative_xpath [//div[text()='Death Notification']], Object 'optionDeathNotification' Found in 23 ms
+[DONE]   | Clicking on optionDeathNotification
+
+===================================================================================================
+
+Step:21  | Object: txtDeathDate | Action: Set | Input: @5/9/2019 | Conditon:  | @21-May-2019 12:29:18.018
+Using @id [DateOfDeath], Object 'txtDeathDate' Found in 1084 ms
+[DONE]   | Entered Text '5/9/2019' on 'txtDeathDate'
+
+===================================================================================================
+
+Step:22  | Object: btnOK | Action: Click | Input:  | Conditon:  | @21-May-2019 12:29:19.019
+Using @relative_xpath [(//span[text()='OK'])[1]], Object 'btnOK' Found in 26 ms
+[DONE]   | Clicking on btnOK
+
+===================================================================================================
+
+Step:23  | Object: Browser | Action: pause | Input: @8000 | Conditon:  | @21-May-2019 12:29:19.019
+[DONE]   | Thread sleep for '8000
+
+===================================================================================================
+
+Step:24  | Object: linkActivities | Action: waitForElementToBeClickable | Input:  | Conditon:  | @21-May-2019 12:29:27.027
+Using @relative_xpath [//span[text()='Activities']//..], Object 'linkActivities' Found in 35 ms
+[DONE]   | 'linkActivities' Element becomes Clickable in stipulated time
+
+===================================================================================================
+
+Step:25  | Object: linkActivities | Action: Click | Input:  | Conditon:  | @21-May-2019 12:29:27.027
+Using @relative_xpath [//span[text()='Activities']//..], Object 'linkActivities' Found in 20 ms
+[DONE]   | Clicking on linkActivities
+
+===================================================================================================
+
+Step:26  | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @21-May-2019 12:29:28.028
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:27  | Object: btnProcess | Action: waitForElementToBeVisible | Input:  | Conditon:  | @21-May-2019 12:29:31.031
+Using @relative_xpath [(//span[@data-id='activityProcess'])[1]], Object 'btnProcess' Found in 24 ms
+[DONE]   | 'btnProcess' Element becomes visible in stipulated time
+
+===================================================================================================
+
+Step:28  | Object: btnProcess | Action: Click | Input:  | Conditon:  | @21-May-2019 12:29:31.031
+Using @relative_xpath [(//span[@data-id='activityProcess'])[1]], Object 'btnProcess' Found in 15 ms
+[DONE]   | Clicking on btnProcess
+
+===================================================================================================
+
+Step:29  | Object: Browser | Action: pause | Input: @8000 | Conditon:  | @21-May-2019 12:29:31.031
+[DONE]   | Thread sleep for '8000
+
+===================================================================================================
+
+Step:30  | Object: policyStatus | Action: assertElementDisplayed | Input:  | Conditon:  | @21-May-2019 12:29:39.039
+Using @relative_xpath [//div[text()='Death Notification']], Object 'policyStatus' Found in 32 ms
+[PASS]   | Element [policyStatus] is Displayed
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : OIPA:Add Activity and Validate Status
+Executed Steps       : 30
+Passed Steps         : 30
+Failed Steps         : 0
+Time Taken           : 00:01:02
+-----------------------------------------------------
+
+2019-05-21 12:29:44:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.sync.jira.JIRAClient isConnected:Connect to soumendeb01.atlassian.net:80 [soumendeb01.atlassian.net/18.136.214.9, soumendeb01.atlassian.net/18.136.214.11, soumendeb01.atlassian.net/18.136.214.10] failed: Connection refused: connect
+org.apache.http.conn.HttpHostConnectException: Connect to soumendeb01.atlassian.net:80 [soumendeb01.atlassian.net/18.136.214.9, soumendeb01.atlassian.net/18.136.214.11, soumendeb01.atlassian.net/18.136.214.10] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at com.cognizant.cognizantits.engine.reporting.sync.BasicHttpClient.execute(BasicHttpClient.java:105)
+	at com.cognizant.cognizantits.engine.reporting.sync.AbstractHttpClient.doGet(AbstractHttpClient.java:68)
+	at com.cognizant.cognizantits.engine.reporting.sync.BasicHttpClient.Get(BasicHttpClient.java:295)
+	at com.cognizant.cognizantits.engine.reporting.sync.BasicHttpClient.Get(BasicHttpClient.java:259)
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRAClient.isConnected(JIRAClient.java:195)
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRASync.isConnected(JIRASync.java:59)
+	at com.cognizant.cognizantits.engine.reporting.SummaryReport.updateTMResults(SummaryReport.java:100)
+	at com.cognizant.cognizantits.engine.reporting.SummaryReport.updateTestCaseResults(SummaryReport.java:94)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:89)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 20 more
+
+[ERROR:UNABLE TO REACH TEST MANAGEMENT MODULE!!!]
+[DEBUG]   | Unable to Connect to TM Module
+
+===================================================================================================
+
+Run Finished on Tue May 21 12:29:57 IST 2019
+-----------------------------------------------------
+ExecutionDate        : 21-May-2019 12-28-35
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:01:18
+ReportPath           : file:///Projects\TALOIPA\Results\TestExecution\TALRFP\OIPA Test Bed\21-May-2019 12-28-35\summary.html
+-----------------------------------------------------

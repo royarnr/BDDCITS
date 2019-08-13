@@ -1,0 +1,278 @@
+[
+  {
+    "id": "Access to Zero Bank Portal",
+    "name": "Access to Zero Bank Portal",
+    "keyword": "Feature",
+    "uri": "//TestPlan/Access to Zero Bank Portal.feature",
+    "line": 1,
+    "tags": [],
+    "elements": [
+      {
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Unsuccessful logon to Zero Bank Portal",
+        "description": "Unsuccessful logon to Zero Bank Portal",
+        "line": 3,
+        "tags": [],
+        "steps": [
+          {
+            "name": " User is in Zero Bank Home Page",
+            "keyword": "Given ",
+            "result": {
+              "duration": 53000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Access to Zero Bank Portal/User is in Zero Bank Home Page.csv"
+            },
+            "line": 4,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "T3BlbmVkIFVybDogaHR0cDovL3plcm8ud2ViYXBwc2VjdXJpdHkuY29tL2luZGV4Lmh0bWw\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "RWxlbWVudCBbWmVyb0JhbmtdIGlzIERpc3BsYXllZA\u003d\u003d"
+              }
+            ]
+          },
+          {
+            "name": "When  User Opts for Signin",
+            "keyword": "When ",
+            "result": {
+              "duration": 4000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Access to Zero Bank Portal/User Opts for Signin.csv"
+            },
+            "line": 5,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gQlROX1NpZ25Jbg\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              }
+            ]
+          },
+          {
+            "name": " User Enters Credentials and Signin",
+            "keyword": "And ",
+            "result": {
+              "duration": 9000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Access to Zero Bank Portal/User Enters Credentials and Signin.csv"
+            },
+            "line": 6,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "RW50ZXJlZCBUZXh0ICdhYmMnIG9uICdVc2VyTmFtZSc\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "RW50ZXJlZCBUZXh0ICdhYmMnIG9uICdQYXNzd29yZCc\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gQlROX1N1Ym1pdA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              }
+            ]
+          },
+          {
+            "name": " Error Msg is Displayed",
+            "keyword": "Then ",
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Access to Zero Bank Portal/Error Msg is Displayed.csv"
+            },
+            "line": 7,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "RWxlbWVudCBbTG9naW4gYW5kL29yIHBhc3N3b3JkIGFyZSB3cm9uXSBpcyBEaXNwbGF5ZWQ\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "RWxlbWVudCB0ZXh0IFtMb2dpbiBhbmQvb3IgcGFzc3dvcmQgYXJlIHdyb25nLl0gaXMgc3RvcmVkIGluIFRlc3REYXRhMDpFcnJvciBNc2c\u003d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Successful logon to Zero Bank Portal",
+        "description": "Successful logon to Zero Bank Portal",
+        "line": 9,
+        "tags": [],
+        "steps": [
+          {
+            "name": " User is in Zero Bank Home Page",
+            "keyword": "Given ",
+            "result": {
+              "duration": 162000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Access to Zero Bank Portal/User is in Zero Bank Home Page.csv"
+            },
+            "line": 4,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "T3BlbmVkIFVybDogaHR0cDovL3plcm8ud2ViYXBwc2VjdXJpdHkuY29tL2luZGV4Lmh0bWw\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "RWxlbWVudCBbWmVyb0JhbmtdIGlzIERpc3BsYXllZA\u003d\u003d"
+              }
+            ]
+          },
+          {
+            "name": "When  User Opts for Signin",
+            "keyword": "When ",
+            "result": {
+              "duration": 33000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Access to Zero Bank Portal/User Opts for Signin.csv"
+            },
+            "line": 5,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gQlROX1NpZ25Jbg\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              }
+            ]
+          },
+          {
+            "name": " User Enters Credentials and Signin",
+            "keyword": "And ",
+            "result": {
+              "duration": 11000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Access to Zero Bank Portal/User Enters Credentials and Signin.csv"
+            },
+            "line": 6,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "RW50ZXJlZCBUZXh0ICd1c2VybmFtZScgb24gJ1VzZXJOYW1lJw\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "RW50ZXJlZCBUZXh0ICdwYXNzd29yZCcgb24gJ1Bhc3N3b3JkJw\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gQlROX1N1Ym1pdA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              }
+            ]
+          },
+          {
+            "name": " User is in Account Summary page",
+            "keyword": "Then ",
+            "result": {
+              "duration": 3000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Access to Zero Bank Portal/User is in Account Summary page.csv"
+            },
+            "line": 13,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "RWxlbWVudCBbQWNjb3VudFRhYl0gaXMgRGlzcGxheWVk"
+              }
+            ]
+          },
+          {
+            "name": " User Logs Out",
+            "keyword": "And ",
+            "result": {
+              "duration": 4000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Access to Zero Bank Portal/User Logs Out.csv"
+            },
+            "line": 14,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gY2FyZXQ\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTG9nb3V0"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMTAwMA\u003d\u003d"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

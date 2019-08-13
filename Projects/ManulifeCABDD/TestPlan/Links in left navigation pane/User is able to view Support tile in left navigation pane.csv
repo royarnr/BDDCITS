@@ -1,0 +1,2 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Support,And  User is able to view Support tile in left navigation pane,assertElementDisplayed,,,Home

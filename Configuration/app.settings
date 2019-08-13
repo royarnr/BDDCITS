@@ -1,0 +1,17 @@
+#Theme Settings
+#Tue Aug 13 15:03:37 IST 2019
+logfile=log.txt
+loadRecentProject=true
+maxFileSize=4.5
+dateTimeFormat=yyyy-MM-dd HH\:mm\:ss\:SSS Z
+defaultWaitTime=10
+addonPort=8887
+theme=Coral
+defaultLogLevel=INFO
+showDateTime=true
+helpdoc=https\://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc
+logBackupLoc=backup/log
+themes=Amethyst,Coral,Pearl,Sapphire
+harPort=11234
+elementWaitTime=15
+standaloneReport=false

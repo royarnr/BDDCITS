@@ -1,0 +1,3 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,Access to Zero Bank Portal,Unsuccessful logon to Zero Bank Portal,Single,Passed,Chrome,Default,Any
+true,Access to Zero Bank Portal,Successful logon to Zero Bank Portal,Single,Passed,Chrome,Default,Any

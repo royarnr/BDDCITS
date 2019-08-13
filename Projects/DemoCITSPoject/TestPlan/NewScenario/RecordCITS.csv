@@ -1,0 +1,6 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Plan and learn,"Click the [<Object>] ",Click,,,Manulife
+2,Group plans,"Click the [<Object>] ",Click,,,Plan
+3,Insurance,"Click the [<Object>] ",Click,,,Group
+4,Investments,"Click the [<Object>] ",Click,,,Insurance
+5,Banking,"Click the [<Object>] ",Click,,,Investments

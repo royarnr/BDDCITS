@@ -1,0 +1,965 @@
+2019-05-20 20:37:11:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2019-05-20 20:37:15:05S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2019-05-20 20:37:19:05S +0530 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2019-05-20 20:37:45:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.sync.AbstractHttpClient parseResponse:null
+Unexpected character (<) at position 9.
+	at org.json.simple.parser.Yylex.yylex(Yylex.java:610)
+	at org.json.simple.parser.JSONParser.nextToken(JSONParser.java:269)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:118)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:81)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:75)
+	at com.cognizant.cognizantits.engine.reporting.sync.AbstractHttpClient.parseResponse(AbstractHttpClient.java:158)
+	at com.cognizant.cognizantits.engine.reporting.sync.BasicHttpClient.Get(BasicHttpClient.java:295)
+	at com.cognizant.cognizantits.engine.reporting.sync.BasicHttpClient.Get(BasicHttpClient.java:259)
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRAClient.isConnected(JIRAClient.java:195)
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRASync.isConnected(JIRASync.java:59)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnection(CognizantITSSettings.java:843)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnActionPerformed(CognizantITSSettings.java:817)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.access$800(CognizantITSSettings.java:56)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings$10.actionPerformed(CognizantITSSettings.java:763)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2019-05-20 20:37:45:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.sync.jira.JIRAClient isConnected:null
+java.lang.NullPointerException
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRAClient.isConnected(JIRAClient.java:195)
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRASync.isConnected(JIRASync.java:59)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnection(CognizantITSSettings.java:843)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnActionPerformed(CognizantITSSettings.java:817)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.access$800(CognizantITSSettings.java:56)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings$10.actionPerformed(CognizantITSSettings.java:763)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2019-05-20 20:39:12:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.sync.AbstractHttpClient parseResponse:null
+Unexpected character (<) at position 9.
+	at org.json.simple.parser.Yylex.yylex(Yylex.java:610)
+	at org.json.simple.parser.JSONParser.nextToken(JSONParser.java:269)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:118)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:81)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:75)
+	at com.cognizant.cognizantits.engine.reporting.sync.AbstractHttpClient.parseResponse(AbstractHttpClient.java:158)
+	at com.cognizant.cognizantits.engine.reporting.sync.BasicHttpClient.Get(BasicHttpClient.java:295)
+	at com.cognizant.cognizantits.engine.reporting.sync.BasicHttpClient.Get(BasicHttpClient.java:259)
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRAClient.isConnected(JIRAClient.java:195)
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRASync.isConnected(JIRASync.java:59)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnection(CognizantITSSettings.java:843)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnActionPerformed(CognizantITSSettings.java:817)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.access$800(CognizantITSSettings.java:56)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings$10.actionPerformed(CognizantITSSettings.java:763)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2019-05-20 20:39:12:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.sync.jira.JIRAClient isConnected:null
+java.lang.NullPointerException
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRAClient.isConnected(JIRAClient.java:195)
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRASync.isConnected(JIRASync.java:59)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnection(CognizantITSSettings.java:843)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnActionPerformed(CognizantITSSettings.java:817)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.access$800(CognizantITSSettings.java:56)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings$10.actionPerformed(CognizantITSSettings.java:763)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2019-05-20 20:39:39:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.sync.AbstractHttpClient parseResponse:null
+Unexpected character (<) at position 9.
+	at org.json.simple.parser.Yylex.yylex(Yylex.java:610)
+	at org.json.simple.parser.JSONParser.nextToken(JSONParser.java:269)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:118)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:81)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:75)
+	at com.cognizant.cognizantits.engine.reporting.sync.AbstractHttpClient.parseResponse(AbstractHttpClient.java:158)
+	at com.cognizant.cognizantits.engine.reporting.sync.BasicHttpClient.Get(BasicHttpClient.java:295)
+	at com.cognizant.cognizantits.engine.reporting.sync.BasicHttpClient.Get(BasicHttpClient.java:259)
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRAClient.isConnected(JIRAClient.java:195)
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRASync.isConnected(JIRASync.java:59)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnection(CognizantITSSettings.java:843)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnActionPerformed(CognizantITSSettings.java:817)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.access$800(CognizantITSSettings.java:56)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings$10.actionPerformed(CognizantITSSettings.java:763)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2019-05-20 20:39:39:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.sync.jira.JIRAClient isConnected:null
+java.lang.NullPointerException
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRAClient.isConnected(JIRAClient.java:195)
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRASync.isConnected(JIRASync.java:59)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnection(CognizantITSSettings.java:843)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnActionPerformed(CognizantITSSettings.java:817)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.access$800(CognizantITSSettings.java:56)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings$10.actionPerformed(CognizantITSSettings.java:763)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2019-05-20 21:12:05:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 00:34:54.577 ]
+2019-05-21 14:45:25:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2019-05-21 14:45:29:05S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2019-05-21 14:45:38:05S +0530 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2019-05-21 14:48:41:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.sync.jira.JIRAClient isConnected:Connect to soumendeb01.atlassian.net:443 [soumendeb01.atlassian.net/18.136.214.9, soumendeb01.atlassian.net/18.136.214.11, soumendeb01.atlassian.net/18.136.214.10] failed: Connection refused: connect
+org.apache.http.conn.HttpHostConnectException: Connect to soumendeb01.atlassian.net:443 [soumendeb01.atlassian.net/18.136.214.9, soumendeb01.atlassian.net/18.136.214.11, soumendeb01.atlassian.net/18.136.214.10] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at com.cognizant.cognizantits.engine.reporting.sync.BasicHttpClient.execute(BasicHttpClient.java:105)
+	at com.cognizant.cognizantits.engine.reporting.sync.AbstractHttpClient.doGet(AbstractHttpClient.java:68)
+	at com.cognizant.cognizantits.engine.reporting.sync.BasicHttpClient.Get(BasicHttpClient.java:295)
+	at com.cognizant.cognizantits.engine.reporting.sync.BasicHttpClient.Get(BasicHttpClient.java:259)
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRAClient.isConnected(JIRAClient.java:195)
+	at com.cognizant.cognizantits.engine.reporting.sync.jira.JIRASync.isConnected(JIRASync.java:59)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnection(CognizantITSSettings.java:843)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.testConnActionPerformed(CognizantITSSettings.java:817)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings.access$800(CognizantITSSettings.java:56)
+	at com.cognizant.cognizantits.ide.main.settings.CognizantITSSettings$10.actionPerformed(CognizantITSSettings.java:763)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:339)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 54 more
+
+2019-05-21 20:29:54:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 05:44:27.762 ]
+2019-05-28 12:43:45:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2019-05-28 12:44:43:05S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2019-05-28 12:44:51:05S +0530 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2019-05-28 12:45:20:05S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2019-05-28 12:45:20:05S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestLab\NewRelease\NewTestSet.csv] doesn't exist
+2019-05-28 12:45:27:548 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.util.log - Logging initialized @121774ms to org.eclipse.jetty.util.log.Slf4jLog
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:45:27:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2019-05-28 12:45:27:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 12:45:27:832 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 12:45:28:056 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 12:45:28:056 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 12:45:28:058 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2019-05-28 12:45:28:068 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2ca5d195{/,null,AVAILABLE}
+2019-05-28 12:45:28:253 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@efe1a11(localhost,h=[localhost],w=[]) for SslContextFactory@66c9d75c(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 12:45:30:910 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@63c1d55f{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:45:30:911 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @125138ms
+2019-05-28 12:45:35:879 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@63c1d55f{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:45:35:880 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 12:45:35:883 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2ca5d195{/,null,UNAVAILABLE}
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost2019-05-28 12:45:35:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:45:49:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2019-05-28 12:45:49:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 12:45:49:981 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 12:45:49:985 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 12:45:49:985 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 12:45:49:986 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 660000ms
+2019-05-28 12:45:49:987 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@71a30ed3{/,null,AVAILABLE}
+2019-05-28 12:45:49:989 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@7aa6cf4c(localhost,h=[localhost],w=[]) for SslContextFactory@51850c5d(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 12:45:49:993 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@1e2da9c0{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:45:49:994 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @144221ms
+2019-05-28 12:46:07:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Plan and learn
+2019-05-28 12:46:07:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Plan and learn] - Click - null
+2019-05-28 12:46:11:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : nav__link--icon
+2019-05-28 12:46:11:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[nav__link--icon] - Click - null
+2019-05-28 12:46:14:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : nav__link--icon
+2019-05-28 12:46:14:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[nav__link--icon] - Click - null
+2019-05-28 12:46:16:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : nav__link--icon
+2019-05-28 12:46:16:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[nav__link--icon] - Click - null
+2019-05-28 12:46:28:565 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@1e2da9c0{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:46:28:566 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 12:46:28:567 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@71a30ed3{/,null,UNAVAILABLE}
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:46:28:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2019-05-28 12:46:34:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.mainui.components.testdesign.tree.ProjectTree deleteTestCases:Delete TestCases approved for 1; [NewTestCase]
+2019-05-28 12:46:34:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv
+2019-05-28 12:46:40:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife\Plan and learn\Plan and learn
+2019-05-28 12:46:40:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife\Plan and learn
+2019-05-28 12:46:40:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife
+2019-05-28 12:46:40:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Plan\nav__link--icon\nav__link--icon
+2019-05-28 12:46:40:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Plan\nav__link--icon
+2019-05-28 12:46:40:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Plan
+2019-05-28 12:46:40:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Group\nav__link--icon\nav__link--icon
+2019-05-28 12:46:40:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Group\nav__link--icon
+2019-05-28 12:46:40:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Group
+2019-05-28 12:46:40:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Insurance\nav__link--icon\nav__link--icon
+2019-05-28 12:46:40:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Insurance\nav__link--icon
+2019-05-28 12:46:40:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Insurance
+2019-05-28 12:46:45:05S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2019-05-28 12:46:53:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv Renamed to CITSRecording.csv
+2019-05-28 12:46:53:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [CITSRecording]
+2019-05-28 12:46:53:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [CITSRecording]
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:49:27:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2019-05-28 12:49:27:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 12:49:27:475 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 12:49:27:478 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 12:49:27:479 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 12:49:27:479 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2019-05-28 12:49:27:481 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@539db7f1{/,null,AVAILABLE}
+2019-05-28 12:49:27:484 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@2693c44e(localhost,h=[localhost],w=[]) for SslContextFactory@68c8a29e(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 12:49:27:488 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@255084af{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:49:27:489 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @361707ms
+2019-05-28 12:49:54:528 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@255084af{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:49:54:529 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 12:49:54:530 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@539db7f1{/,null,UNAVAILABLE}
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:49:54:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:49:55:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2019-05-28 12:49:56:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 12:49:56:003 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 12:49:56:009 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 12:49:56:009 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 12:49:56:010 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 660000ms
+2019-05-28 12:49:56:014 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2357e118{/,null,AVAILABLE}
+2019-05-28 12:49:56:018 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@631cad5c(localhost,h=[localhost],w=[]) for SslContextFactory@6f4e7461(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 12:49:56:024 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@7aa349f6{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:49:56:024 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @390241ms
+2019-05-28 12:50:02:434 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@7aa349f6{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:50:02:435 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 12:50:02:435 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2357e118{/,null,UNAVAILABLE}
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:50:02:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2019-05-28 12:51:32:05S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2019-05-28 12:51:44:05S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase0.csv] doesn't exist
+2019-05-28 12:51:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv Renamed to Record.csv
+2019-05-28 12:51:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [Record]
+2019-05-28 12:51:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [Record]
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:52:39:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2019-05-28 12:52:39:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 12:52:39:507 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 12:52:39:512 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 12:52:39:513 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 12:52:39:513 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2019-05-28 12:52:39:517 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2f932ab9{/,null,AVAILABLE}
+2019-05-28 12:52:39:520 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@619a36cd(localhost,h=[localhost],w=[]) for SslContextFactory@27b6204d(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 12:52:39:524 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@3b1a613{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:52:39:524 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @553719ms
+2019-05-28 12:52:46:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Group plans
+2019-05-28 12:52:46:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Group plans] - Click - null
+2019-05-28 12:52:52:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Insurance
+2019-05-28 12:52:52:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Insurance] - Click - null
+2019-05-28 12:52:56:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Investments
+2019-05-28 12:52:56:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Investments] - Click - null
+2019-05-28 12:52:59:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Banking
+2019-05-28 12:52:59:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Banking] - Click - null
+2019-05-28 12:53:03:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Vitality
+2019-05-28 12:53:03:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Vitality] - Click - null
+2019-05-28 12:53:11:901 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@3b1a613{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:53:11:902 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 12:53:11:903 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2f932ab9{/,null,UNAVAILABLE}
+2019-05-28 12:53:11:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:53:41:05S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2019-05-28 12:53:49:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase0.csv Renamed to ObjectSpy.csv
+2019-05-28 12:53:49:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase0] to [ObjectSpy]
+2019-05-28 12:53:49:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase0] to [ObjectSpy]
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:55:03:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2019-05-28 12:55:03:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 12:55:03:138 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 12:55:03:148 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 12:55:03:148 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 12:55:03:148 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 660000ms
+2019-05-28 12:55:03:150 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1d4cf46f{/,null,AVAILABLE}
+2019-05-28 12:55:03:155 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@1624ae85(localhost,h=[localhost],w=[]) for SslContextFactory@736fc6f(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 12:55:03:161 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@560e6b2d{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:55:03:167 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @697344ms
+2019-05-28 12:56:14:196 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@560e6b2d{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:56:14:199 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 12:56:14:200 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1d4cf46f{/,null,UNAVAILABLE}
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:56:14:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:56:29:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startHeal:Launching Server for Heal
+2019-05-28 12:56:29:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 12:56:29:478 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 12:56:29:481 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 12:56:29:481 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 12:56:29:482 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 660000ms
+2019-05-28 12:56:29:492 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5eb4e725{/,null,AVAILABLE}
+2019-05-28 12:56:29:495 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@3eff5891(localhost,h=[localhost],w=[]) for SslContextFactory@40c2a445(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 12:56:29:498 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@3fd1a977{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:56:29:498 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @783664ms
+2019-05-28 12:58:04:937 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@3fd1a977{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:58:04:938 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 12:58:04:939 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5eb4e725{/,null,UNAVAILABLE}
+2019-05-28 12:58:04:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:58:10:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startHeal:Launching Server for Heal
+2019-05-28 12:58:10:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 12:58:10:770 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 12:58:10:776 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 12:58:10:777 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 12:58:10:777 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2019-05-28 12:58:10:779 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@eacbdf7{/,null,AVAILABLE}
+2019-05-28 12:58:10:782 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@12343e15(localhost,h=[localhost],w=[]) for SslContextFactory@607fa00d(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 12:58:10:784 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@c043895{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:58:10:785 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @884939ms
+2019-05-28 12:58:49:249 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@c043895{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:58:49:250 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 12:58:49:250 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@eacbdf7{/,null,UNAVAILABLE}
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:58:49:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 12:58:54:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startHeal:Launching Server for Heal
+2019-05-28 12:58:54:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 12:58:54:167 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 12:58:54:193 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 12:58:54:194 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 12:58:54:194 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 660000ms
+2019-05-28 12:58:54:196 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4681a78f{/,null,AVAILABLE}
+2019-05-28 12:58:54:199 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@4855c1ce(localhost,h=[localhost],w=[]) for SslContextFactory@534d5860(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 12:58:54:205 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@2b49502c{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 12:58:54:205 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @928353ms
+2019-05-28 13:02:48:411 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@2b49502c{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:02:48:412 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 13:02:48:412 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4681a78f{/,null,UNAVAILABLE}
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost2019-05-28 13:02:48:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:04:36:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startHeal:Launching Server for Heal
+2019-05-28 13:04:36:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 13:04:36:394 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 13:04:36:404 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 13:04:36:404 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 13:04:36:404 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 660000ms
+2019-05-28 13:04:36:406 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@416e5e98{/,null,AVAILABLE}
+2019-05-28 13:04:36:408 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@42f30e95(localhost,h=[localhost],w=[]) for SslContextFactory@591f055b(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 13:04:36:412 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@50a13082{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:04:36:412 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @1270533ms
+2019-05-28 13:05:56:457 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@50a13082{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:05:56:458 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 13:05:56:463 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@416e5e98{/,null,UNAVAILABLE}
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:05:56:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Plan\Group plans\Group plans
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Plan\Group plans
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Plan
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Group\Insurance\Insurance
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Group\Insurance
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Group
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Insurance\Investments\Investments
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Insurance\Investments
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Insurance
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Investments\Banking\Banking
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Investments\Banking
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Investments\Vitality\Vitality
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Investments\Vitality
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Investments
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Get\Group plans\Group plans
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Get\Group plans
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Get\Insurance\Insurance
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Get\Insurance
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Get\nav__link--icon\nav__link--icon
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Get\nav__link--icon
+2019-05-28 13:06:08:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Get
+2019-05-28 13:06:15:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.mainui.components.testdesign.tree.ProjectTree deleteTestCases:Delete TestCases approved for 4; [CITSRecording, Record, ObjectSpy, NewTestCase]
+Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+	at com.cognizant.cognizantits.ide.main.mainui.components.testdesign.testcase.TestCaseComponent.addRow(TestCaseComponent.java:458)
+	at com.cognizant.cognizantits.ide.main.mainui.components.testdesign.testcase.TestCaseComponent.addLastRow(TestCaseComponent.java:452)
+	at com.cognizant.cognizantits.ide.main.mainui.components.testdesign.testcase.TestCaseComponent.access$1600(TestCaseComponent.java:67)
+	at com.cognizant.cognizantits.ide.main.mainui.components.testdesign.testcase.TestCaseComponent$18.mouseClicked(TestCaseComponent.java:287)
+	at java.awt.AWTEventMulticaster.mouseClicked(Unknown Source)
+	at java.awt.AWTEventMulticaster.mouseClicked(Unknown Source)
+	at java.awt.AWTEventMulticaster.mouseClicked(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:07:20:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2019-05-28 13:07:20:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 13:07:20:795 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 13:07:20:806 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 13:07:20:806 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 13:07:20:807 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2019-05-28 13:07:20:810 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2cb24632{/,null,AVAILABLE}
+2019-05-28 13:07:20:812 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@348c6181(localhost,h=[localhost],w=[]) for SslContextFactory@28cdca12(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 13:07:20:815 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@2abe8590{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:07:20:815 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @1434940ms
+2019-05-28 13:07:30:605 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@2abe8590{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:07:30:606 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 13:07:30:606 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2cb24632{/,null,UNAVAILABLE}
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:07:30:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2019-05-28 13:08:55:05S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2019-05-28 13:09:04:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv Renamed to RecordingFeature.csv
+2019-05-28 13:09:04:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [RecordingFeature]
+2019-05-28 13:09:04:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [RecordingFeature]
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:09:40:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2019-05-28 13:09:40:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 13:09:40:557 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 13:09:40:563 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 13:09:40:563 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 13:09:40:563 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2019-05-28 13:09:40:565 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@59f0b2d5{/,null,AVAILABLE}
+2019-05-28 13:09:40:571 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@a00bd76(localhost,h=[localhost],w=[]) for SslContextFactory@18a8c958(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 13:09:40:576 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@70d77153{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:09:40:576 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @1574702ms
+2019-05-28 13:10:08:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Plan and learn
+2019-05-28 13:10:08:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Plan and learn] - Click - null
+2019-05-28 13:10:15:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Group plans
+2019-05-28 13:10:15:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Group plans] - Click - null
+2019-05-28 13:10:22:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Insurance
+2019-05-28 13:10:22:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Insurance] - Click - null
+2019-05-28 13:10:25:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Investments
+2019-05-28 13:10:25:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Investments] - Click - null
+2019-05-28 13:10:33:002 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@70d77153{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:10:33:002 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 13:10:33:003 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@59f0b2d5{/,null,UNAVAILABLE}
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:10:33:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2019-05-28 13:11:32:05S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2019-05-28 13:11:39:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv Renamed to ObjectRecord.csv
+2019-05-28 13:11:39:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [ObjectRecord]
+2019-05-28 13:11:39:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [ObjectRecord]
+2019-05-28 13:11:44:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\ObjectRecord.csv Renamed to ObjectSpy.csv
+2019-05-28 13:11:44:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [ObjectRecord] to [ObjectSpy]
+2019-05-28 13:11:44:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [ObjectRecord] to [ObjectSpy]
+2019-05-28 13:12:03:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\WPage0 Renamed to ManulifeCAHomePage
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:12:10:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2019-05-28 13:12:10:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 13:12:10:951 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 13:12:10:954 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 13:12:10:955 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 13:12:10:955 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2019-05-28 13:12:10:957 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7af3185b{/,null,AVAILABLE}
+2019-05-28 13:12:10:959 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@413cc0f5(localhost,h=[localhost],w=[]) for SslContextFactory@70873170(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 13:12:10:964 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@64b60361{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:12:10:965 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @1725090ms
+2019-05-28 13:13:19:566 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@64b60361{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:13:19:567 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 13:13:19:568 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7af3185b{/,null,UNAVAILABLE}
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:13:19:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:13:34:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startHeal:Launching Server for Heal
+2019-05-28 13:13:34:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 13:13:34:977 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 13:13:34:985 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 13:13:34:986 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 13:13:34:986 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 660000ms
+2019-05-28 13:13:34:987 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@108de516{/,null,AVAILABLE}
+2019-05-28 13:13:34:990 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@70e03d0d(localhost,h=[localhost],w=[]) for SslContextFactory@2fd51afd(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 13:13:34:997 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@1f9d3ddf{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:13:34:997 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @1809118ms
+2019-05-28 13:15:17:259 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@1f9d3ddf{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:15:17:260 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 13:15:17:261 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@108de516{/,null,UNAVAILABLE}
+2019-05-28 13:15:17:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Plan\Group plans\Group plans
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Plan\Group plans
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Plan\Plan and learn\Plan and learn
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Plan\Plan and learn
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Plan
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Group\Insurance\Insurance
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Group\Insurance
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Group
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Insurance\Investments\Investments
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Insurance\Investments
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Insurance
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\ManulifeCAHomePage
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife\Group plans\Group plans
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife\Group plans
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife\Insurance\Insurance
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife\Insurance
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife\Investments\Investments
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife\Investments
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife\Manulife logo Personal\Manulife logo Personal
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife\Manulife logo Personal
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife\Plan and learn\Plan and learn
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife\Plan and learn
+2019-05-28 13:21:50:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\ObjectRepository\Manulife
+2019-05-28 13:21:55:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.mainui.components.testdesign.tree.ProjectTree deleteTestCases:Delete TestCases approved for 2; [RecordingFeature, ObjectSpy]
+2019-05-28 13:25:44:05S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2019-05-28 13:25:51:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv Renamed to RecordCITS.csv
+2019-05-28 13:25:51:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [RecordCITS]
+2019-05-28 13:25:51:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [RecordCITS]
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:26:39:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2019-05-28 13:26:39:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 13:26:39:053 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 13:26:39:056 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 13:26:39:057 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 13:26:39:057 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2019-05-28 13:26:39:059 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@520d7e0d{/,null,AVAILABLE}
+2019-05-28 13:26:39:062 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@450a5c75(localhost,h=[localhost],w=[]) for SslContextFactory@2b7635ea(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 13:26:39:067 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@fc57dd{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:26:39:069 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @2593178ms
+2019-05-28 13:26:59:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Plan and learn
+2019-05-28 13:26:59:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Plan and learn] - Click - null
+2019-05-28 13:27:05:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Group plans
+2019-05-28 13:27:05:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Group plans] - Click - null
+2019-05-28 13:27:08:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Insurance
+2019-05-28 13:27:08:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Insurance] - Click - null
+2019-05-28 13:27:12:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Investments
+2019-05-28 13:27:12:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Investments] - Click - null
+2019-05-28 13:27:17:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Banking
+2019-05-28 13:27:17:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Banking] - Click - null
+2019-05-28 13:27:30:216 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@fc57dd{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:27:30:216 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 13:27:30:217 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@520d7e0d{/,null,UNAVAILABLE}
+2019-05-28 13:27:30:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:27:49:05S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2019-05-28 13:27:54:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\TestPlan\NewScenario\NewTestCase.csv Renamed to ObjectSpy.csv
+2019-05-28 13:27:54:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [ObjectSpy]
+2019-05-28 13:27:54:05S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [ObjectSpy]
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:27:59:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2019-05-28 13:27:59:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 13:27:59:824 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 13:27:59:830 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 13:27:59:831 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 13:27:59:831 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2019-05-28 13:27:59:835 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3ddc644a{/,null,AVAILABLE}
+2019-05-28 13:27:59:838 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@3597421(localhost,h=[localhost],w=[]) for SslContextFactory@3ab99775(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 13:27:59:844 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5c655a4d{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:27:59:845 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @2673959ms
+2019-05-28 13:28:58:439 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@5c655a4d{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:28:58:440 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 13:28:58:442 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3ddc644a{/,null,UNAVAILABLE}
+2019-05-28 13:28:58:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:29:02:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startHeal:Launching Server for Heal
+2019-05-28 13:29:02:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 13:29:02:428 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 13:29:02:430 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 13:29:02:431 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 13:29:02:431 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2019-05-28 13:29:02:446 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e49556{/,null,AVAILABLE}
+2019-05-28 13:29:02:449 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@1d0d7a15(localhost,h=[localhost],w=[]) for SslContextFactory@10de1f99(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 13:29:02:455 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@66b64b69{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:29:02:458 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @2736570ms
+2019-05-28 13:30:17:462 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@66b64b69{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:30:17:462 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 13:30:17:464 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e49556{/,null,UNAVAILABLE}
+2019-05-28 13:30:17:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:31:11:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2019-05-28 13:31:11:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 13:31:11:532 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 13:31:11:538 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 13:31:11:538 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 13:31:11:538 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 660000ms
+2019-05-28 13:31:11:540 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@36dfe363{/,null,AVAILABLE}
+2019-05-28 13:31:11:543 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@50f5925d(localhost,h=[localhost],w=[]) for SslContextFactory@7745aa82(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 13:31:11:546 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@4bccf1a0{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:31:11:546 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @2865659ms
+2019-05-28 13:31:31:482 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@4bccf1a0{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:31:31:482 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 13:31:31:483 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@36dfe363{/,null,UNAVAILABLE}
+2019-05-28 13:31:31:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-05-28 13:31:55:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2019-05-28 13:31:55:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-05-28 13:31:55:261 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-05-28 13:31:55:264 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-05-28 13:31:55:266 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-05-28 13:31:55:266 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 660000ms
+2019-05-28 13:31:55:273 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@434f1190{/,null,AVAILABLE}
+2019-05-28 13:31:55:277 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@43014f0c(localhost,h=[localhost],w=[]) for SslContextFactory@59667ef2(jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-05-28 13:31:55:280 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@105344d9{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:31:55:281 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @2909392ms
+2019-05-28 13:32:06:756 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@105344d9{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-05-28 13:32:06:756 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-05-28 13:32:06:757 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@434f1190{/,null,UNAVAILABLE}
+2019-05-28 13:32:06:05S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+Exception in thread "AWT-EventQueue-0" java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.cognizant.cognizantits.datalib.component.TestCase.refactorTestDataColumn(TestCase.java:559)
+	at com.cognizant.cognizantits.datalib.component.Scenario.refactorTestDataColumn(Scenario.java:310)
+	at com.cognizant.cognizantits.datalib.component.Project.refactorTestDataColumn(Project.java:440)
+	at com.cognizant.cognizantits.datalib.component.EnvTestData.renameTestDataColumn(EnvTestData.java:300)
+	at com.cognizant.cognizantits.ide.main.mainui.components.testdesign.testdata.TestDataComponent$TestDataTablePanel$3.actionPerformed(TestDataComponent.java:742)
+	at com.cognizant.cognizantits.ide.main.utils.table.EditHeader.renameColumn(EditHeader.java:137)
+	at com.cognizant.cognizantits.ide.main.utils.table.EditHeader.access$100(EditHeader.java:45)
+	at com.cognizant.cognizantits.ide.main.utils.table.EditHeader$3.focusLost(EditHeader.java:93)
+	at java.awt.AWTEventMulticaster.focusLost(Unknown Source)
+	at java.awt.Component.processFocusEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.KeyboardFocusManager.redispatchEvent(Unknown Source)
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(Unknown Source)
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+2019-05-28 13:37:08:05S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2019-05-28 13:37:10:310 +0530 [Thread-180] [INFO] com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for the testset
+2019-05-28 13:37:11:807 +0530 [Thread-180] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\Results\TestExecution\NewRelease\NewTestSet\28-May-2019 13-37-08\summary.html
+2019-05-28 13:37:11:807 +0530 [Thread-180] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\Results\TestExecution\NewRelease\NewTestSet\28-May-2019 13-37-08\summary.html]
+2019-05-28 13:37:27:05S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2019-05-28 13:37:27:459 +0530 [Thread-183] [INFO] com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for the testset
+2019-05-28 13:38:41:566 +0530 [Thread-183] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\Results\TestExecution\NewRelease\NewTestSet\28-May-2019 13-37-27\summary.html
+2019-05-28 13:38:41:566 +0530 [Thread-183] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\Results\TestExecution\NewRelease\NewTestSet\28-May-2019 13-37-27\summary.html]
+2019-05-28 14:04:08:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 01:20:19.322 ]
+2019-05-28 19:06:37:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2019-05-28 19:06:42:05S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2019-05-28 19:06:46:05S +0530 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2019-05-28 19:25:40:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 00:19:02.712 ]
+2019-05-28 19:29:38:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2019-05-28 19:29:38:05S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2019-05-28 19:29:40:05S +0530 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2019-05-28 20:00:38:05S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 00:31:00.582 ]
+2019-08-13 11:39:21:08S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2019-08-13 11:39:25:08S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2019-08-13 11:39:30:08S +0530 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2019-08-13 11:40:11:08S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\cognizant-intelligent-test-scripter-1.1\Projects\JHInvestmentsNew\TestLab\NewRelease Renamed to Release1
+Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+	at com.cognizant.cognizantits.ide.main.mainui.components.testexecution.testset.TestsetComponent.refreshTitle(TestsetComponent.java:155)
+	at com.cognizant.cognizantits.ide.main.mainui.components.testexecution.tree.TestSetTree.checkAndRename(TestSetTree.java:315)
+	at com.cognizant.cognizantits.ide.main.mainui.components.testexecution.tree.TestSetTree.access$700(TestSetTree.java:62)
+	at com.cognizant.cognizantits.ide.main.mainui.components.testexecution.tree.TestSetTree$6.editingStopped(TestSetTree.java:153)
+	at javax.swing.AbstractCellEditor.fireEditingStopped(AbstractCellEditor.java:141)
+	at javax.swing.DefaultCellEditor$EditorDelegate.stopCellEditing(DefaultCellEditor.java:368)
+	at javax.swing.DefaultCellEditor.stopCellEditing(DefaultCellEditor.java:233)
+	at javax.swing.DefaultCellEditor$EditorDelegate.actionPerformed(DefaultCellEditor.java:385)
+	at javax.swing.JTextField.fireActionPerformed(JTextField.java:508)
+	at javax.swing.JTextField.postActionEvent(JTextField.java:721)
+	at javax.swing.JTextField$NotifyAction.actionPerformed(JTextField.java:836)
+	at javax.swing.SwingUtilities.notifyAction(SwingUtilities.java:1668)
+	at javax.swing.JComponent.processKeyBinding(JComponent.java:2882)
+	at javax.swing.JComponent.processKeyBindings(JComponent.java:2929)
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2845)
+	at java.awt.Component.processEvent(Component.java:6316)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1954)
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:835)
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1103)
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:974)
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:800)
+	at java.awt.Component.dispatchEventImpl(Component.java:4760)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-08-13 11:40:16:08S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [D:\cognizant-intelligent-test-scripter-1.1\Projects\JHInvestmentsNew\TestLab\Release1\NewTestSet.csv] doesn't exist
+2019-08-13 11:40:22:08S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\cognizant-intelligent-test-scripter-1.1\Projects\JHInvestmentsNew\TestLab\Release1\NewTestSet.csv Renamed to TestSet.csv
+2019-08-13 11:40:57:08S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2019-08-13 11:40:58:436 +0530 [Thread-10] [INFO] com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for the testset
+2019-08-13 11:42:10:942 +0530 [Thread-10] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - D:\cognizant-intelligent-test-scripter-1.1\Projects\JHInvestmentsNew\Results\TestExecution\Release1\TestSet\13-Aug-2019 11-40-57\summary.html
+2019-08-13 11:42:10:943 +0530 [Thread-10] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [D:\cognizant-intelligent-test-scripter-1.1\Projects\JHInvestmentsNew\Results\TestExecution\Release1\TestSet\13-Aug-2019 11-40-57\summary.html]

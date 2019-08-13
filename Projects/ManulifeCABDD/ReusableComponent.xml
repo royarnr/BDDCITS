@@ -1,0 +1,18 @@
+<Root ref="ManulifeCABDD" type="RC">
+<Folder ref="New Group">
+<Scenario ref="Links in left navigation pane">
+<TestCase exeType="Executable" ref="User is Manulife.ca home page"/>
+<TestCase exeType="Executable" ref="User is able to view Plan and learn tile in left navigation pane"/>
+<TestCase exeType="Executable" ref="User is able to view Group Plans tile in left navigation pane"/>
+<TestCase exeType="Executable" ref="User is able to view Insurance tile in left navigation pane"/>
+<TestCase exeType="Executable" ref="User is able to view Investments tile in left navigation pane"/>
+<TestCase exeType="Executable" ref="User is able to view Banking tile in left navigation pane"/>
+<TestCase exeType="Executable" ref="User is able to view Vitality tile in left navigation pane"/>
+<TestCase exeType="Executable" ref="User is able to view Support tile in left navigation pane"/>
+<TestCase exeType="Executable" ref="User is in Manulife.ca Home Page"/>
+<TestCase exeType="Executable" ref="User clicks on Group Plans in left navigation pane"/>
+<TestCase exeType="Executable" ref="user is in Group Plans home page"/>
+<TestCase exeType="Executable" ref="the text Which group plan you are looking for_ is displayed"/>
+</Scenario>
+</Folder>
+</Root>

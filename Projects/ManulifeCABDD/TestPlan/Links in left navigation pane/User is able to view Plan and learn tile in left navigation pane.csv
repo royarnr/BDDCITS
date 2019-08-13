@@ -1,0 +1,2 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Plan and Learn,Then  User is able to view Plan and learn tile in left navigation pane,assertElementDisplayed,,,Home

@@ -1,0 +1,2 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Investments,And  User is able to view Investments tile in left navigation pane,assertElementDisplayed,,,Home

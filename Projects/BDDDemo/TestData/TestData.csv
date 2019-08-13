@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,Url,MonthlyPremium
+Get a Quote,Car Insurance Quote in Ontario,1,1,https://tdinsurance.com,$278.25*
+Get a Quote,Home Insurance Quote in Ontario,1,1,https://tdinsurance.com,

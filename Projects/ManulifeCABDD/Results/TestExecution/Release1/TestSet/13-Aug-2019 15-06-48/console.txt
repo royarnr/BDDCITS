@@ -1,0 +1,199 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_172
+java.home            : C:\Program Files\Java\jdk1.8.0_172\jre
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Tue Aug 13 15:06:48 IST 2019
+Loading Browser Profile
+Loading RunManager
+[Scenario:Links in left navigation pane] [TestCase: Validate links in left navigation pane] [Description: Validate links in left navigation pane] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Links in left navigation pane] [TestCase: Validate Group Plans home page] [Description: Validate Group Plans home page] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[2] TestCases selected for execution from [//Release1/TestSet]
+----------------------------------------------------------
+Initializing Report
+[main] INFO com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for the testset
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 48635
+Only local connections are allowed.
+2019-08-13 15:06:58:08S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://www.manulife.ca/ | Conditon:  | @13-Aug-2019 15:06:58.058
+[DONE]   | Opened Url: https://www.manulife.ca/
+
+===================================================================================================
+
+Step:1   | Object: Plan and Learn | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 15:07:06.006
+Using @relative_xpath [//a[@aria-label='Plan and learn menu item']], Object 'Plan and Learn' Found in 73 ms
+[PASS]   | Element [Plan and Learn] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: Group Plans | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 15:07:07.007
+Using @relative_xpath [//a[@aria-label='Group plans menu item']], Object 'Group Plans' Found in 27 ms
+[PASS]   | Element [Group Plans] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: Insurance | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 15:07:08.008
+Using @relative_xpath [(//a[@aria-label='Insurance menu item'])[1]], Object 'Insurance' Found in 33 ms
+[PASS]   | Element [Insurance] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: Investments | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 15:07:09.009
+Using @relative_xpath [(//a[@aria-label='Investments menu item'])[1]], Object 'Investments' Found in 22 ms
+[PASS]   | Element [Investments] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: Banking | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 15:07:09.009
+Using @relative_xpath [(//a[@aria-label='Banking menu item'])[1]], Object 'Banking' Found in 15 ms
+[PASS]   | Element [Banking] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: Vitality | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 15:07:10.010
+Using @relative_xpath [(//a[@aria-label='Vitality menu item'])[1]], Object 'Vitality' Found in 15 ms
+[PASS]   | Element [Vitality] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: Support | Action: assertElementDisplayed | Input:  | Conditon:  | @13-Aug-2019 15:07:11.011
+Using @relative_xpath [(//a[@aria-label='Support menu item'])[1]], Object 'Support' Found in 26 ms
+[PASS]   | Element [Support] is Displayed
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Links in left navigation pane:Validate links in left navigation pane
+Executed Steps       : 8
+Passed Steps         : 8
+Failed Steps         : 0
+Time Taken           : 00:00:29
+-----------------------------------------------------
+
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 25553
+Only local connections are allowed.
+2019-08-13 15:07:26:08S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://www.manulife.ca/ | Conditon:  | @13-Aug-2019 15:07:26.026
+[DONE]   | Opened Url: https://www.manulife.ca/
+
+===================================================================================================
+
+Step:1   | Object: Group Plans | Action: Click | Input:  | Conditon:  | @13-Aug-2019 15:07:40.040
+Using @relative_xpath [//a[@aria-label='Group plans menu item']], Object 'Group Plans' Found in 18 ms
+[DONE]   | Clicking on Group Plans
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: assertUrlContains | Input: @group-plans | Conditon:  | @13-Aug-2019 15:07:42.042
+[FAIL]   | java.lang.reflect.InvocationTargetException
+
+===================================================================================================
+
+2019-08-13 15:07:43:08S +0530 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:java.lang.reflect.InvocationTargetException
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:40)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:387)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from Consumer<String> to Consumer<? super Serializable>
+
+	at com.cognizant.cognizantits.engine.commands.galenCommands.General.<init>(General.java:97)
+	at com.cognizant.cognizantits.engine.commands.galenCommands.Url.<init>(Url.java:34)
+	... 22 more
+
+Step:1   | Object: GroupPlanHeaderText | Action: assertElementTextContains | Input: @Which group plan are you looking for? | Conditon:  | @13-Aug-2019 15:07:43.043
+Using @relative_xpath [//h2[text()[contains(.,'Which group plan are you looking for?')]]], Object 'GroupPlanHeaderText' Found in 17 ms
+[FAIL]   | java.lang.reflect.InvocationTargetException
+
+===================================================================================================
+
+2019-08-13 15:07:44:08S +0530 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:java.lang.reflect.InvocationTargetException
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:40)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:387)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from Consumer<String> to Consumer<? super Serializable>
+
+	at com.cognizant.cognizantits.engine.commands.galenCommands.General.<init>(General.java:97)
+	at com.cognizant.cognizantits.engine.commands.galenCommands.Text.<init>(Text.java:35)
+	... 22 more
+
+
+---------------------------------------------------
+Testcase Name        : Links in left navigation pane:Validate Group Plans home page
+Executed Steps       : 4
+Passed Steps         : 2
+Failed Steps         : 2
+Time Taken           : 00:00:28
+-----------------------------------------------------
+
+Run Finished on Tue Aug 13 15:07:46 IST 2019
+Generating BDD-Report...ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console. Set system property 'org.apache.logging.log4j.simplelog.StatusLogger.level' to TRACE to show Log4j2 internal initialization logging.
+Done!
+-----------------------------------------------------
+ExecutionDate        : 13-Aug-2019 15-06-48
+Executed TestCases   : 2
+Passed TestCases     : 1
+Failed TestCases     : 1
+Time Taken           : 00:01:00
+ReportPath           : file:///Projects\ManulifeCABDD\Results\TestExecution\Release1\TestSet\13-Aug-2019 15-06-48\summary.html
+-----------------------------------------------------
+[main] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - D:\cognizant-intelligent-test-scripter-1.1\Projects\ManulifeCABDD\Results\TestExecution\Release1\TestSet\13-Aug-2019 15-06-48\summary.html
+[main] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [D:\cognizant-intelligent-test-scripter-1.1\Projects\ManulifeCABDD\Results\TestExecution\Release1\TestSet\13-Aug-2019 15-06-48\summary.html]

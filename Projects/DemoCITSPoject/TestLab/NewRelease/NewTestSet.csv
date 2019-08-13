@@ -1,0 +1,3 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,NewScenario,RecordCITS,Single,Failed,Chrome,Default,Any
+true,NewScenario,ObjectSpy,Single,Failed,Chrome,Default,Any

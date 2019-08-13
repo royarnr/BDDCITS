@@ -1,0 +1,12 @@
+<Root ref="DemoBDDLive" type="RC">
+<Folder ref="New Group">
+<Scenario ref="Access to Zero Bank Portal">
+<TestCase exeType="Executable" ref="User is in Zero Bank Home Page"/>
+<TestCase exeType="Executable" ref="User Opts for Signin"/>
+<TestCase exeType="Executable" ref="User Enters Credentials and Signin"/>
+<TestCase exeType="Executable" ref="Error Msg is Displayed"/>
+<TestCase exeType="Executable" ref="User is in Account Summary page"/>
+<TestCase exeType="Executable" ref="User Logs Out"/>
+</Scenario>
+</Folder>
+</Root>

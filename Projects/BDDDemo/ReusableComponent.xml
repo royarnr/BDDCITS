@@ -1,0 +1,21 @@
+<Root ref="BDDDemo" type="RC">
+<Folder ref="New Group">
+<Scenario ref="Get a Quote">
+<TestCase exeType="Executable" ref="Enter Building Details"/>
+<TestCase exeType="Executable" ref="Enter Home Address"/>
+<TestCase exeType="Executable" ref="Enters About You"/>
+<TestCase exeType="Executable" ref="Enters Car Details"/>
+<TestCase exeType="Executable" ref="Enters Claims _ History"/>
+<TestCase exeType="Executable" ref="Enters Driver Details"/>
+<TestCase exeType="Executable" ref="Enters Heating _ Ventilation Details"/>
+<TestCase exeType="Executable" ref="Enters Home _ Property Details"/>
+<TestCase exeType="Executable" ref="Enters Savings _ Discounts"/>
+<TestCase exeType="Executable" ref="Enters Use of Information"/>
+<TestCase exeType="Executable" ref="Quote Summary is Created"/>
+<TestCase exeType="Executable" ref="User is in TD Insurance Home Page"/>
+<TestCase exeType="Executable" ref="User Opts for Car Quote"/>
+<TestCase exeType="Executable" ref="User Opts for Home Quote"/>
+<TestCase exeType="Executable" ref="Validates Auto Inusrance Quote Screen"/>
+</Scenario>
+</Folder>
+</Root>

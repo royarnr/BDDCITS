@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,Given  User is Manulife.ca home page,Links in left navigation pane:User is Manulife.ca home page,,,
+2,Execute,Then  User is able to view Plan and learn tile in left navigation pane,Links in left navigation pane:User is able to view Plan and learn tile in left navigation pane,,,
+3,Execute,And  User is able to view Group Plans tile in left navigation pane,Links in left navigation pane:User is able to view Group Plans tile in left navigation pane,,,
+4,Execute,And  User is able to view Insurance tile in left navigation pane,Links in left navigation pane:User is able to view Insurance tile in left navigation pane,,,
+5,Execute,And  User is able to view Investments tile in left navigation pane,Links in left navigation pane:User is able to view Investments tile in left navigation pane,,,
+6,Execute,And  User is able to view Banking tile in left navigation pane,Links in left navigation pane:User is able to view Banking tile in left navigation pane,,,
+7,Execute,And  User is able to view Vitality tile in left navigation pane,Links in left navigation pane:User is able to view Vitality tile in left navigation pane,,,
+8,Execute,And  User is able to view Support tile in left navigation pane,Links in left navigation pane:User is able to view Support tile in left navigation pane,,,

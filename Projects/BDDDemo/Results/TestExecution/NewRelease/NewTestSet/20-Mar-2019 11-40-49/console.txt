@@ -1,0 +1,549 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_192
+java.home            : C:\Program Files\Java\jre1.8.0_192
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Wed Mar 20 11:40:49 IST 2019
+Loading Browser Profile
+Loading RunManager
+[Scenario:Get a Quote] [TestCase: Car Insurance Quote in Ontario] [Description: Car Insurance Quote in Ontario] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//NewRelease/NewTestSet]
+----------------------------------------------------------
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 14630
+Only local connections are allowed.
+2019-03-20 11:40:57:03S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: TestData:Url | Conditon:  | @20-Mar-2019 11:40:57.057
+[DONE]   | Opened Url: https://tdinsurance.com
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @4000 | Conditon:  | @20-Mar-2019 11:41:09.009
+[DONE]   | Thread sleep for '4000
+
+===================================================================================================
+
+Step:1   | Object: Get a Car Quote | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:41:13.013
+Using @relative_xpath [(//button[@type='button'])[4]], Object 'Get a Car Quote' Found in 63 ms
+[DONE]   | Clicking on Get a Car Quote
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @10000 | Conditon:  | @20-Mar-2019 11:41:23.023
+[DONE]   | Thread sleep for '10000
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input: @1000 | Conditon:  | @20-Mar-2019 11:41:33.033
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+Step:1   | Object: quoterEngine.question.carYear.button | Action: selectByIndex | Input: @5 | Conditon:  | @20-Mar-2019 11:41:34.034
+Using @id [quoterEngine.question.carYear.button], Object 'quoterEngine.question.carYear.button' Found in 17 ms
+[DONE]   | Item/s '5' is/are selected from list quoterEngine.question.carYear.button
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @20-Mar-2019 11:41:35.035
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:3   | Object: quoterEngine.question.carMake.button Copy(1) | Action: selectByIndex | Input: @2 | Conditon:  | @20-Mar-2019 11:41:40.040
+Using @id [quoterEngine.question.carMake.button], Object 'quoterEngine.question.carMake.button Copy(1)' Found in 18 ms
+[DONE]   | Item/s '2' is/are selected from list quoterEngine.question.carMake.button Copy(1)
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @20-Mar-2019 11:41:40.040
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:5   | Object: quoterEngine.question.carModel.button | Action: selectByIndex | Input: @1 | Conditon:  | @20-Mar-2019 11:41:45.045
+Using @id [quoterEngine.question.carModel.button], Object 'quoterEngine.question.carModel.button' Found in 17 ms
+[DONE]   | Item/s '1' is/are selected from list quoterEngine.question.carModel.button
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @20-Mar-2019 11:41:46.046
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:7   | Object: Next | Action: clickByJS | Input:  | Conditon:  | @20-Mar-2019 11:41:51.051
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 18 ms
+[DONE]   | Clicked on Next
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @20-Mar-2019 11:41:51.051
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:9   | Object: New | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:41:54.054
+Using @id [quoterEngine.question.carCondition.new], Object 'New' Found in 20 ms
+[DONE]   | Clicking on New
+
+===================================================================================================
+
+Step:10  | Object: Owned (financed) | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:41:54.054
+Using @id [quoterEngine.question.ownedOrLeased.financed], Object 'Owned (financed)' Found in 22 ms
+[DONE]   | Clicking on Owned (financed)
+
+===================================================================================================
+
+Step:11  | Object: Browser | Action: pause | Input: @1000 | Conditon:  | @20-Mar-2019 11:41:54.054
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+Step:12  | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:41:55.055
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 8 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:13  | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @20-Mar-2019 11:41:56.056
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:14  | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:01.001
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 12 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:15  | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @20-Mar-2019 11:42:01.001
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:16  | Object: EstimatedTotalDrivingDistance | Action: selectByIndex | Input: @5 | Conditon:  | @20-Mar-2019 11:42:04.004
+Using @id [quoterEngine.question.annualMileage.button], Object 'EstimatedTotalDrivingDistance' Found in 20 ms
+[DONE]   | Item/s '5' is/are selected from list EstimatedTotalDrivingDistance
+
+===================================================================================================
+
+Step:17  | Object: Browser | Action: pause | Input: @1000 | Conditon:  | @20-Mar-2019 11:42:05.005
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+Step:18  | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:06.006
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 12 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:19  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:42:06.006
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:20  | Object: VehicleWithFourWinterTire | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:08.008
+Using @id [quoterEngine.question.winterTiresQuestion.false], Object 'VehicleWithFourWinterTire' Found in 15 ms
+[DONE]   | Clicking on VehicleWithFourWinterTire
+
+===================================================================================================
+
+Step:21  | Object: AntiTheftFeature | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:08.008
+Using @id [quoterEngine.question.deviceInstallationQuestion.false], Object 'AntiTheftFeature' Found in 18 ms
+[DONE]   | Clicking on AntiTheftFeature
+
+===================================================================================================
+
+Step:22  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:42:09.009
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:23  | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:11.011
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 14 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:24  | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @20-Mar-2019 11:42:11.011
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:25  | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:16.016
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 12 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:1   | Object: Enter info manually | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:17.017
+Using @id [quoterEngine.question.enterInfoManually], Object 'Enter info manually' Found in 20 ms
+[DONE]   | Clicking on Enter info manually
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @20-Mar-2019 11:42:17.017
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:3   | Object: firstName | Action: Set | Input: @testFirstName | Conditon:  | @20-Mar-2019 11:42:20.020
+Using @name [firstName], Object 'firstName' Found in 16 ms
+[DONE]   | Entered Text 'testFirstName' on 'firstName'
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input: @1000 | Conditon:  | @20-Mar-2019 11:42:20.020
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+Step:5   | Object: Last name | Action: Set | Input: @testLastName | Conditon:  | @20-Mar-2019 11:42:21.021
+Using @id [quoterEngine.question.lastName], Object 'Last name' Found in 26 ms
+[DONE]   | Entered Text 'testLastName' on 'Last name'
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input: @1000 | Conditon:  | @20-Mar-2019 11:42:22.022
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+Step:7   | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:23.023
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 17 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @20-Mar-2019 11:42:23.023
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:9   | Object: year | Action: selectByVisibleText | Input: @1982 | Conditon:  | @20-Mar-2019 11:42:26.026
+Using @id [quoterEngine.question.dateOfBirth.year], Object 'year' Found in 19 ms
+[DONE]   | Item/s '1982' is/are selected from list year
+
+===================================================================================================
+
+Step:10  | Object: month | Action: selectByVisibleText | Input: @Feb | Conditon:  | @20-Mar-2019 11:42:27.027
+Using @id [quoterEngine.question.dateOfBirth.month], Object 'month' Found in 23 ms
+[DONE]   | Item/s 'Feb' is/are selected from list month
+
+===================================================================================================
+
+Step:11  | Object: day | Action: selectByVisibleText | Input: @11 | Conditon:  | @20-Mar-2019 11:42:27.027
+Using @id [quoterEngine.question.dateOfBirth.day], Object 'day' Found in 16 ms
+[DONE]   | Item/s '11' is/are selected from list day
+
+===================================================================================================
+
+Step:12  | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @20-Mar-2019 11:42:27.027
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:13  | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:30.030
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 9 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:14  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:42:30.030
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:15  | Object: Male | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:32.032
+Using @id [quoterEngine.question.gender.M], Object 'Male' Found in 19 ms
+[DONE]   | Clicking on Male
+
+===================================================================================================
+
+Step:16  | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:32.032
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 18 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:17  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:42:33.033
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:18  | Object: Single | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:35.035
+Using @id [quoterEngine.question.maritalStatus.S], Object 'Single' Found in 22 ms
+[DONE]   | Clicking on Single
+
+===================================================================================================
+
+Step:19  | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:35.035
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 14 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:20  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:42:36.036
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:21  | Object: DriverAddress | Action: Set | Input: @15 - 21 odd, Rue Ontario E, Killarney, ON, P0M 2A0 | Conditon:  | @20-Mar-2019 11:42:38.038
+Using @name [address_address], Object 'DriverAddress' Found in 25 ms
+[DONE]   | Entered Text '15 - 21 odd, Rue Ontario E, Killarney, ON, P0M 2A0' on 'DriverAddress'
+
+===================================================================================================
+
+Step:22  | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @20-Mar-2019 11:42:38.038
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:23  | Object: FirstDDAddress | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:43.043
+Using @id [quoterEngine.question.address_address.addressList.0], Object 'FirstDDAddress' Found in 26 ms
+[DONE]   | Clicking on FirstDDAddress
+
+===================================================================================================
+
+Step:24  | Object: Driverllabel | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:44.044
+Using @id [progressBar.label.logoTheDriver], Object 'Driverllabel' Found in 30 ms
+[DONE]   | Clicking on Driverllabel
+
+===================================================================================================
+
+Step:25  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:42:44.044
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:28  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:42:46.046
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:29  | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:48.048
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 9 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:30  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:42:48.048
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:31  | Object: LicenseClass | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:50.050
+Using @id [quoterEngine.question.currentLicenseClass.G2], Object 'LicenseClass' Found in 21 ms
+[DONE]   | Clicking on LicenseClass
+
+===================================================================================================
+
+Step:32  | Object: LicenseAge | Action: Set | Input: @16 | Conditon:  | @20-Mar-2019 11:42:50.050
+Using @id [quoterEngine.question.firstLicenseAgeIssued], Object 'LicenseAge' Found in 17 ms
+[DONE]   | Entered Text '16' on 'LicenseAge'
+
+===================================================================================================
+
+Step:33  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:42:51.051
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:34  | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:53.053
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 8 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:35  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:42:53.053
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:36  | Object: TicketInLast3years | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:55.055
+Using @id [quoterEngine.question.hadTickets.false], Object 'TicketInLast3years' Found in 34 ms
+[DONE]   | Clicking on TicketInLast3years
+
+===================================================================================================
+
+Step:37  | Object: LicenseSuspendInLast15Years | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:55.055
+Using @id [quoterEngine.question.hadSuspensions.false], Object 'LicenseSuspendInLast15Years' Found in 16 ms
+[DONE]   | Clicking on LicenseSuspendInLast15Years
+
+===================================================================================================
+
+Step:38  | Object: Browser | Action: pause | Input: @1000 | Conditon:  | @20-Mar-2019 11:42:56.056
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+Step:39  | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:57.057
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 9 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:40  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:42:57.057
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:41  | Object: None | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:59.059
+Using @id [quoterEngine.question.priorInsurer.NoPrior], Object 'None' Found in 15 ms
+[DONE]   | Clicking on None
+
+===================================================================================================
+
+Step:42  | Object: ClaimInLast10years | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:42:59.059
+Using @id [quoterEngine.question.hadClaims.false], Object 'ClaimInLast10years' Found in 20 ms
+[DONE]   | Clicking on ClaimInLast10years
+
+===================================================================================================
+
+Step:43  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:42:59.059
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:44  | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:43:01.001
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 8 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:45  | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:43:02.002
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:1   | Object: No | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:43:04.004
+Using @id [quoterEngine.question.hadFraud.false], Object 'No' Found in 16 ms
+[DONE]   | Clicking on No
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:43:04.004
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:3   | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:43:06.006
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 11 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:43:06.006
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:5   | Object: Next | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:43:08.008
+Using @id [quoterEngine.footerButton.next], Object 'Next' Found in 11 ms
+[DONE]   | Clicking on Next
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:43:09.009
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:7   | Object: phone | Action: Set | Input: @1234567890 | Conditon:  | @20-Mar-2019 11:43:11.011
+Using @relative_xpath [//*[@id="quoterEngine.question.phoneNumber"]], Object 'phone' Found in 20 ms
+[DONE]   | Entered Text '1234567890' on 'phone'
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:43:11.011
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:9   | Object: email | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:43:13.013
+Using @id [quoterEngine.question.email], Object 'email' Found in 37 ms
+[DONE]   | Clicking on email
+
+===================================================================================================
+
+Step:10  | Object: email | Action: Set | Input: @test@test.com | Conditon:  | @20-Mar-2019 11:43:14.014
+Using @id [quoterEngine.question.email], Object 'email' Found in 10 ms
+[DONE]   | Entered Text 'test@test.com' on 'email'
+
+===================================================================================================
+
+Step:11  | Object: agree | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:43:14.014
+Using @id [quoterEngine.question.isConsentContactChecked], Object 'agree' Found in 52 ms
+[DONE]   | Clicking on agree
+
+===================================================================================================
+
+Step:12  | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @20-Mar-2019 11:43:14.014
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:13  | Object: GetAQuote | Action: Click | Input:  | Conditon:  | @20-Mar-2019 11:43:17.017
+Using @id [quoterEngine.footerButton.submit], Object 'GetAQuote' Found in 14 ms
+[DONE]   | Clicking on GetAQuote
+
+===================================================================================================
+
+Step:14  | Object: Browser | Action: pause | Input: @10000 | Conditon:  | @20-Mar-2019 11:43:17.017
+[DONE]   | Thread sleep for '10000
+
+===================================================================================================
+
+Step:1   | Object: MonthlyPremium | Action: verifyElementPresent | Input:  | Conditon:  | @20-Mar-2019 11:43:27.027
+Using @id [quoterEngine.quoterItem.yourQuote.monthlyPremium], Object 'MonthlyPremium' Found in 9126 ms
+[PASS]   | Element [MonthlyPremium] is Present
+
+===================================================================================================
+
+Step:2   | Object: MonthlyPremium | Action: storeTextinDataSheet | Input: TestData:MonthlyPremium | Conditon:  | @20-Mar-2019 11:43:37.037
+Using @id [quoterEngine.quoterItem.yourQuote.monthlyPremium], Object 'MonthlyPremium' Found in 15 ms
+Updating value in SubIteration 1
+[DONE]   | Element text [$278.25*] is stored in TestData:MonthlyPremium
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @20-Mar-2019 11:43:37.037
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Get a Quote:Car Insurance Quote in Ontario
+Executed Steps       : 90
+Passed Steps         : 90
+Failed Steps         : 0
+Time Taken           : 00:02:51
+-----------------------------------------------------
+
+Run Finished on Wed Mar 20 11:43:41 IST 2019
+Generating BDD-Report...ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console. Set system property 'org.apache.logging.log4j.simplelog.StatusLogger.level' to TRACE to show Log4j2 internal initialization logging.
+Done!
+-----------------------------------------------------
+ExecutionDate        : 20-Mar-2019 11-40-49
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:02:53
+ReportPath           : file:///C:\cognizant-intelligent-test-scripter-1.1\Projects\BDDDemo\Results\TestExecution\NewRelease\NewTestSet\20-Mar-2019 11-40-49\summary.html
+-----------------------------------------------------

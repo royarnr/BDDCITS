@@ -1,0 +1,11 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,Get a Quote:User is in TD Insurance Home Page,,,
+2,Execute,,Get a Quote:User Opts for Home Quote,,,
+3,Execute,,Get a Quote:Enter Home Address,,,
+4,Execute,,Get a Quote:Enter Building Details,,,
+5,Execute,,Get a Quote:Enters Home _ Property Details,,,
+6,Execute,,Get a Quote:Enters Heating _ Ventilation Details,,,
+7,Execute,,Get a Quote:Enters Savings _ Discounts,,,
+8,Execute,,Get a Quote:Enters About You,,,
+9,Execute,,Get a Quote:Enters Use of Information,,,
+10,Execute,,Get a Quote:Quote Summary is Created,,,

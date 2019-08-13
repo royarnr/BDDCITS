@@ -1,0 +1,1 @@
+var reportName="TALRFP:OIPA Test Bed";var dataSet=[{"PassTC":"1","FailTC":"0","ReportPath":"21-May-2019 12-28-35\\summary.html","ExecTC":"1","ExecutionDate":"21-May-2019 12-28-35","ExecTime":"00:01:18"}]

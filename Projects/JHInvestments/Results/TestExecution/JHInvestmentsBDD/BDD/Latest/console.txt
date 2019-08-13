@@ -1,0 +1,129 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_181
+java.home            : C:\Program Files\Java\jre1.8.0_181
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Thu May 09 17:34:45 IST 2019
+Loading Browser Profile
+Loading RunManager
+[Scenario:US3141 - JH Investments Home Page Options] [TestCase: Validate JH Invetsments Home Page Options] [Description: Validate JH Invetsments Home Page Options] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:US3141 - JH Investments Home Page Options] [TestCase: Validate option for Log In] [Description: Validate option for Log In] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[2] TestCases selected for execution from [//JHInvestmentsBDD/BDD]
+----------------------------------------------------------
+Initializing Report
+ApiLink not available!!
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 21395
+Only local connections are allowed.
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 18557
+Only local connections are allowed.
+2019-05-09 17:34:59:05S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+2019-05-09 17:34:59:05S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: JHInv:URL | Conditon:  | @09-May-2019 17:34:59.059
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: JHInv:URL | Conditon:  | @09-May-2019 17:34:59.059
+[DONE]   | Opened Url: https://www.jhinvestments.com/
+
+===================================================================================================
+
+Step:1   | Object: JHLogo | Action: assertElementDisplayed | Input:  | Conditon:  | @09-May-2019 17:35:23.023
+[DONE]   | Opened Url: https://www.jhinvestments.com/
+
+===================================================================================================
+
+Step:1   | Object: JHLogo | Action: assertElementDisplayed | Input:  | Conditon:  | @09-May-2019 17:35:23.023
+Using @xpath [//img[@alt='John Hancock Investments']], Object 'JHLogo' Found in 104 ms
+Using @xpath [//img[@alt='John Hancock Investments']], Object 'JHLogo' Found in 115 ms
+[PASS]   | Element [JHLogo] is Displayed
+
+===================================================================================================
+
+[PASS]   | Element [JHLogo] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: linkDashboard | Action: assertElementDisplayed | Input:  | Conditon:  | @09-May-2019 17:35:25.025
+Step:1   | Object: btnLogin | Action: assertElementDisplayed | Input:  | Conditon:  | @09-May-2019 17:35:39.039
+Using @xpath [//div[text()[contains(.,'Dashboard')]]], Object 'linkDashboard' Found in 426 ms
+[PASS]   | Element [linkDashboard] is Displayed
+
+===================================================================================================
+
+Using @xpath [//span[text()='LOG IN']], Object 'btnLogin' Found in 44 ms
+[PASS]   | Element [btnLogin] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: linkInvestments | Action: assertElementDisplayed | Input:  | Conditon:  | @09-May-2019 17:35:40.040
+Using @xpath [//div[text()='Investments']], Object 'linkInvestments' Found in 46 ms
+[PASS]   | Element [linkInvestments] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: linkFundCompare | Action: assertElementDisplayed | Input:  | Conditon:  | @09-May-2019 17:35:41.041
+Using @xpath [//div[text()='Fund Compare']], Object 'linkFundCompare' Found in 35 ms
+[PASS]   | Element [linkFundCompare] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: linkViewPoints | Action: assertElementDisplayed | Input:  | Conditon:  | @09-May-2019 17:35:43.043
+Using @xpath [//div[text()='Viewpoints']], Object 'linkViewPoints' Found in 52 ms
+[PASS]   | Element [linkViewPoints] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: linkResources | Action: assertElementDisplayed | Input:  | Conditon:  | @09-May-2019 17:35:43.043
+Using @xpath [//div[text()='Resources']], Object 'linkResources' Found in 46 ms
+[PASS]   | Element [linkResources] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: linkAboutUs | Action: assertElementDisplayed | Input:  | Conditon:  | @09-May-2019 17:35:45.045
+Using @xpath [//div[text()='About us']], Object 'linkAboutUs' Found in 295 ms
+[PASS]   | Element [linkAboutUs] is Displayed
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : US3141 - JH Investments Home Page Options:Validate option for Log In
+Executed Steps       : 3
+Passed Steps         : 3
+Failed Steps         : 0
+Time Taken           : 00:01:00
+-----------------------------------------------------
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+
+---------------------------------------------------
+Testcase Name        : US3141 - JH Investments Home Page Options:Validate JH Invetsments Home Page Options
+Executed Steps       : 8
+Passed Steps         : 8
+Failed Steps         : 0
+Time Taken           : 00:01:03
+-----------------------------------------------------
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+Run Finished on Thu May 09 17:35:49 IST 2019
+Generating BDD-Report...Done!
+-----------------------------------------------------
+ExecutionDate        : 09-May-2019 17-34-45
+Executed TestCases   : 2
+Passed TestCases     : 2
+Failed TestCases     : 0
+Time Taken           : 00:01:04
+ReportPath           : file:///D:\cognizant-intelligent-test-scripter-1.1\Projects\JHInvestments\Results\TestExecution\JHInvestmentsBDD\BDD\09-May-2019 17-34-45\summary.html
+-----------------------------------------------------

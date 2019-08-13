@@ -1,0 +1,3 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,Get a Quote,Car Insurance Quote in Ontario,Single,Passed,Chrome,Default,Any
+false,Get a Quote,Home Insurance Quote in Ontario,Single,Failed,Chrome,Default,Any

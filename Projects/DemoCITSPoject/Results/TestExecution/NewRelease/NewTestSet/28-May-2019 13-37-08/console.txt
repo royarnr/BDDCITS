@@ -1,0 +1,130 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_181
+java.home            : C:\Program Files\Java\jre1.8.0_181
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Tue May 28 13:37:08 IST 2019
+Loading Browser Profile
+Loading RunManager
+[Scenario:NewScenario] [TestCase: RecordCITS] [Description: RecordCITS] [Browser: ] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:NewScenario] [TestCase: ObjectSpy] [Description: ObjectSpy] [Browser: ] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[2] TestCases selected for execution from [//NewRelease/NewTestSet]
+----------------------------------------------------------
+Initializing Report
+ApiLink not available!!
+Running Iteration 1
+Launching 
+Launching Local Driver
+2019-05-28 13:37:10:05S +0530 [OFF ] com.cognizant.cognizantits.engine.drivers.SeleniumDriver launchDriver:null
+com.cognizant.cognizantits.engine.execution.exception.UnCaughtException: Unknown Browser Requested -[  ]
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:69)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:151)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:121)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-05-28 13:37:10:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:[Selenium Driver Exception] Cannot Initiate Browser Unknown Browser Requested -[  ]
+com.cognizant.cognizantits.engine.execution.exception.UnCaughtException: [Selenium Driver Exception] Cannot Initiate Browser Unknown Browser Requested -[  ]
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:75)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:151)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:121)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[DEBUG]   | [Selenium Driver Exception] Cannot Initiate Browser Unknown Browser Requested -[  ]
+
+===================================================================================================
+
+2019-05-28 13:37:10:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler updateTestLog:null
+java.lang.NullPointerException
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:103)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:134)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:105)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:188)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:176)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:131)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+---------------------------------------------------
+Testcase Name        : NewScenario:ObjectSpy
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+Running Iteration 1
+Launching 
+Launching Local Driver
+2019-05-28 13:37:11:05S +0530 [OFF ] com.cognizant.cognizantits.engine.drivers.SeleniumDriver launchDriver:null
+com.cognizant.cognizantits.engine.execution.exception.UnCaughtException: Unknown Browser Requested -[  ]
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:69)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:151)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:121)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-05-28 13:37:11:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:[Selenium Driver Exception] Cannot Initiate Browser Unknown Browser Requested -[  ]
+com.cognizant.cognizantits.engine.execution.exception.UnCaughtException: [Selenium Driver Exception] Cannot Initiate Browser Unknown Browser Requested -[  ]
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:75)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:151)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:121)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[DEBUG]   | [Selenium Driver Exception] Cannot Initiate Browser Unknown Browser Requested -[  ]
+
+===================================================================================================
+
+2019-05-28 13:37:11:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler updateTestLog:null
+java.lang.NullPointerException
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:103)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:134)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:105)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:188)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:176)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:131)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+---------------------------------------------------
+Testcase Name        : NewScenario:RecordCITS
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:01
+-----------------------------------------------------
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+Run Finished on Tue May 28 13:37:11 IST 2019
+-----------------------------------------------------
+ExecutionDate        : 28-May-2019 13-37-08
+Executed TestCases   : 2
+Passed TestCases     : 0
+Failed TestCases     : 2
+Time Taken           : 00:00:01
+ReportPath           : file:///D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITSPoject\Results\TestExecution\NewRelease\NewTestSet\28-May-2019 13-37-08\summary.html
+-----------------------------------------------------

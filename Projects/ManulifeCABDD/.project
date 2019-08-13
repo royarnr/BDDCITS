@@ -1,0 +1,281 @@
+{
+  "id" : "ManulifeCABDD",
+  "name" : "ManulifeCABDD",
+  "attributes" : [ ],
+  "tags" : [ ],
+  "_meta" : [ {
+    "type" : "attribute",
+    "name" : "scenario",
+    "desc" : "High level classification of test requirement/cases grouped together",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@smoke",
+    "desc" : "Non-exhaustive set of tests that aim at ensuring that the most important functions work",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@uat",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@load",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Links in left navigation pane",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ {
+      "name" : "feature.line",
+      "value" : "1"
+    } ],
+    "tags" : [ ]
+  } ],
+  "data" : [ {
+    "id" : "Validate links in left navigation pane",
+    "name" : "Validate links in left navigation pane",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.line",
+      "value" : "3"
+    }, {
+      "name" : "feature.children.name",
+      "value" : "Validate links in left navigation pane"
+    }, {
+      "name" : "feature.children.keyword",
+      "value" : "Scenario"
+    } ]
+  }, {
+    "id" : "User is Manulife.ca home page",
+    "name" : "User is Manulife.ca home page",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "4"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User is Manulife.ca home page"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Given "
+    } ]
+  }, {
+    "id" : "User is able to view Plan and learn tile in left navigation pane",
+    "name" : "User is able to view Plan and learn tile in left navigation pane",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "5"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User is able to view Plan and learn tile in left navigation pane"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Then "
+    } ]
+  }, {
+    "id" : "User is able to view Group Plans tile in left navigation pane",
+    "name" : "User is able to view Group Plans tile in left navigation pane",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "6"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User is able to view Group Plans tile in left navigation pane"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "User is able to view Insurance tile in left navigation pane",
+    "name" : "User is able to view Insurance tile in left navigation pane",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "7"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User is able to view Insurance tile in left navigation pane"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "User is able to view Investments tile in left navigation pane",
+    "name" : "User is able to view Investments tile in left navigation pane",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "8"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User is able to view Investments tile in left navigation pane"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "User is able to view Banking tile in left navigation pane",
+    "name" : "User is able to view Banking tile in left navigation pane",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "9"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User is able to view Banking tile in left navigation pane"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "User is able to view Vitality tile in left navigation pane",
+    "name" : "User is able to view Vitality tile in left navigation pane",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "10"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User is able to view Vitality tile in left navigation pane"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "User is able to view Support tile in left navigation pane",
+    "name" : "User is able to view Support tile in left navigation pane",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "11"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User is able to view Support tile in left navigation pane"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "Validate Group Plans home page",
+    "name" : "Validate Group Plans home page",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.line",
+      "value" : "13"
+    }, {
+      "name" : "feature.children.name",
+      "value" : "Validate Group Plans home page"
+    }, {
+      "name" : "feature.children.keyword",
+      "value" : "Scenario"
+    } ]
+  }, {
+    "id" : "User is in Manulife.ca Home Page",
+    "name" : "User is in Manulife.ca Home Page",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "14"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User is in Manulife.ca Home Page"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Given "
+    } ]
+  }, {
+    "id" : "User clicks on Group Plans in left navigation pane",
+    "name" : "User clicks on Group Plans in left navigation pane",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "15"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User clicks on Group Plans in left navigation pane"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "When "
+    } ]
+  }, {
+    "id" : "user is in Group Plans home page",
+    "name" : "user is in Group Plans home page",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "16"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "user is in Group Plans home page"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Then "
+    } ]
+  }, {
+    "id" : "the text Which group plan you are looking for_ is displayed",
+    "name" : "the text Which group plan you are looking for_ is displayed",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Links in left navigation pane"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "17"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "the text Which group plan you are looking for? is displayed"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  } ]
+}

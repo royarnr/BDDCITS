@@ -1,0 +1,146 @@
+<Root type="OR" ref="DemoCITSPoject">
+  <Page title="Manulife - Insurance &amp; investment solutions for you" ref="Manulife">
+    <ObjectGroup ref="Plan and learn">
+      <Object frame="" ref="Plan and learn">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Plan and learn" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Plan and learn')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/main/div/aside/nav/ul/li/a)[1]" ref="xpath" pref="5"/>
+        <Property value="nav-link" ref="class" pref="6"/>
+        <Property value="html.no-js.fp-enabled > body.fp-viewing-0 > main.template__grid--A > div.nav > aside.aside > #navbar > ul.navbar-nav > li.nav-item > a.nav-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Plan and learn1">
+      <Object frame="" ref="Plan and learn1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Plan and learn" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Plan and learn')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/main/div/aside/nav/ul/li/a)[1]" ref="xpath" pref="5"/>
+        <Property value="nav-link" ref="class" pref="6"/>
+        <Property value="html.no-js.fp-enabled > body.fp-viewing-0 > main.template__grid--A > div.nav > aside.aside > #navbar > ul.navbar-nav > li.nav-item > a.nav-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Group plans">
+      <Object frame="" ref="Group plans">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Group plans" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Group plans')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/main/div/aside/nav/ul/li[2]/a" ref="xpath" pref="5"/>
+        <Property value="nav-link" ref="class" pref="6"/>
+        <Property value="html.no-js.fp-enabled > body.fp-viewing-0 > main.template__grid--A > div.nav > aside.aside > #navbar > ul.navbar-nav > li.nav-item. > a.nav-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Insurance">
+      <Object frame="" ref="Insurance">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Insurance" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Insurance')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/main/div/aside/nav/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="nav-link" ref="class" pref="6"/>
+        <Property value="html.no-js.fp-enabled > body.fp-viewing-0 > main.template__grid--A > div.nav > aside.aside > #navbar > ul.navbar-nav > li.nav-item. > a.nav-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Investments">
+      <Object frame="" ref="Investments">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Investments" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Investments')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/main/div/aside/nav/ul/li[4]/a" ref="xpath" pref="5"/>
+        <Property value="nav-link" ref="class" pref="6"/>
+        <Property value="html.no-js.fp-enabled > body.fp-viewing-0 > main.template__grid--A > div.nav > aside.aside > #navbar > ul.navbar-nav > li.nav-item. > a.nav-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Plan &amp; Learn with Manulife" ref="Plan">
+    <ObjectGroup ref="Group plans">
+      <Object frame="" ref="Group plans">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Group plans" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Group plans')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/main/div/aside/nav/ul/li[2]/a" ref="xpath" pref="5"/>
+        <Property value="nav-link" ref="class" pref="6"/>
+        <Property value="html.no-js.fp-enabled > body.fp-viewing-0 > main.template__grid--A > div.nav > aside.aside > #navbar > ul.navbar-nav > li.nav-item. > a.nav-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Life events">
+      <Object frame="" ref="Life events">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Life events" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Life events')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/main/div/aside/nav/ul/li/ul/li[3]/a)[1]" ref="xpath" pref="5"/>
+        <Property value="nav-link dropdown-toggle" ref="class" pref="6"/>
+        <Property value="html.no-js > body > main.template__grid--B > div.nav > aside.aside > #navbar > ul.navbar-nav > li.nav-item.active show > ul.submenu > li.nav-item.dropdown > a.nav-link.dropdown-toggle" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Group plans | Manulife" ref="Group">
+    <ObjectGroup ref="Insurance">
+      <Object frame="" ref="Insurance">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Insurance'])[4]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/main/div/aside/nav/ul/li[3]/a/span[2]" ref="xpath" pref="5"/>
+        <Property value="nav-link-text" ref="class" pref="6"/>
+        <Property value="html.no-js > body > main.template__grid--B > div.nav > aside.aside > #navbar > ul.navbar-nav > li.nav-item. > a.nav-link > span.nav-link-text" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Insurance | Manulife" ref="Insurance">
+    <ObjectGroup ref="Investments">
+      <Object frame="" ref="Investments">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Investments" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Investments')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/main/div/aside/nav/ul/li[4]/a" ref="xpath" pref="5"/>
+        <Property value="nav-link" ref="class" pref="6"/>
+        <Property value="html.no-js > body > main.template__grid--B > div.nav > aside.aside > #navbar > ul.navbar-nav > li.nav-item. > a.nav-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Investments | Manulife" ref="Investments">
+    <ObjectGroup ref="Banking">
+      <Object frame="" ref="Banking">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Banking'])[3]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/main/div/aside/nav/ul/li[5]/a/span[2]" ref="xpath" pref="5"/>
+        <Property value="nav-link-text" ref="class" pref="6"/>
+        <Property value="html.no-js > body > main.template__grid--B > div.nav > aside.aside > #navbar > ul.navbar-nav > li.nav-item. > a.nav-link > span.nav-link-text" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Life events | Manulife Plan &amp; Learn" ref="Life">
+    <ObjectGroup ref="Get the information you need t">
+      <Object frame="" ref="Get the information you need t">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[2]/div[2]/div/div/div/h2" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/main/div[2]/div[2]/div/div/div/h2" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="div.rich-text.parbase > div > h2" ref="css" pref="7"/>
+        <Property value="h2" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

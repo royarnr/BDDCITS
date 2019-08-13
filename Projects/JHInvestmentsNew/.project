@@ -1,0 +1,230 @@
+{
+  "id" : "JHInvestmentsNew",
+  "name" : "JHInvestmentsNew",
+  "attributes" : [ ],
+  "tags" : [ ],
+  "_meta" : [ {
+    "type" : "attribute",
+    "name" : "scenario",
+    "desc" : "High level classification of test requirement/cases grouped together",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@smoke",
+    "desc" : "Non-exhaustive set of tests that aim at ensuring that the most important functions work",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@uat",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@load",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "US3141 - JH Investments Home Page Options",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ {
+      "name" : "feature.line",
+      "value" : "1"
+    } ],
+    "tags" : [ ]
+  } ],
+  "data" : [ {
+    "id" : "Validate JH Invetsments Home Page Options",
+    "name" : "Validate JH Invetsments Home Page Options",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "US3141 - JH Investments Home Page Options"
+    }, {
+      "name" : "feature.children.line",
+      "value" : "3"
+    }, {
+      "name" : "feature.children.name",
+      "value" : "Validate JH Invetsments Home Page Options"
+    }, {
+      "name" : "feature.children.keyword",
+      "value" : "Scenario"
+    } ]
+  }, {
+    "id" : "user laucnhes JH Investments application",
+    "name" : "user laucnhes JH Investments application",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "US3141 - JH Investments Home Page Options"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "5"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "user laucnhes JH Investments application"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Given "
+    } ]
+  }, {
+    "id" : "User is in home page",
+    "name" : "User is in home page",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "US3141 - JH Investments Home Page Options"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "6"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "User is in home page"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "And "
+    } ]
+  }, {
+    "id" : "user will be able to see option for Dashboard",
+    "name" : "user will be able to see option for Dashboard",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "US3141 - JH Investments Home Page Options"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "7"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "user will be able to see option for Dashboard"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Then "
+    } ]
+  }, {
+    "id" : "user will be able to see option for Investments",
+    "name" : "user will be able to see option for Investments",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "US3141 - JH Investments Home Page Options"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "8"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "user will be able to see option for Investments"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Then "
+    } ]
+  }, {
+    "id" : "user will be able to see option for Fund Compare",
+    "name" : "user will be able to see option for Fund Compare",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "US3141 - JH Investments Home Page Options"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "9"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "user will be able to see option for Fund Compare"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Then "
+    } ]
+  }, {
+    "id" : "user will be able to see option for View Points",
+    "name" : "user will be able to see option for View Points",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "US3141 - JH Investments Home Page Options"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "10"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "user will be able to see option for View Points"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Then "
+    } ]
+  }, {
+    "id" : "user will be able to see option for Resources",
+    "name" : "user will be able to see option for Resources",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "US3141 - JH Investments Home Page Options"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "11"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "user will be able to see option for Resources"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Then "
+    } ]
+  }, {
+    "id" : "user will be able to see option for About Us",
+    "name" : "user will be able to see option for About Us",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "US3141 - JH Investments Home Page Options"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "12"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "user will be able to see option for About Us"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Then "
+    } ]
+  }, {
+    "id" : "Validate option for Log In",
+    "name" : "Validate option for Log In",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "US3141 - JH Investments Home Page Options"
+    }, {
+      "name" : "feature.children.line",
+      "value" : "14"
+    }, {
+      "name" : "feature.children.name",
+      "value" : "Validate option for Log In"
+    }, {
+      "name" : "feature.children.keyword",
+      "value" : "Scenario"
+    } ]
+  }, {
+    "id" : "user will be able to see option for Log in",
+    "name" : "user will be able to see option for Log in",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "US3141 - JH Investments Home Page Options"
+    }, {
+      "name" : "feature.children.step.line",
+      "value" : "17"
+    }, {
+      "name" : "feature.children.step.text",
+      "value" : "user will be able to see option for Log in"
+    }, {
+      "name" : "feature.children.step.keyword",
+      "value" : "Then "
+    } ]
+  } ]
+}

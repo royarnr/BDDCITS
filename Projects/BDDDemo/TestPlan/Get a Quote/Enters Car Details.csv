@@ -1,0 +1,26 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,quoterEngine.question.carYear.button,Select item in [<Object>] which has text: [<Data>],selectByIndex,@5,,AutoInsuranceQuotePage
+2,Browser,Wait for [<Data>] milli seconds,pause,@5000,,
+3,quoterEngine.question.carMake.button Copy(1),Deselect item in [<Object>] which has text: [<Data>],selectByIndex,@2,,AutoInsuranceQuotePage
+4,Browser,Wait for [<Data>] milli seconds,pause,@5000,,
+5,quoterEngine.question.carModel.button,Select item in [<Object>] which has text: [<Data>],selectByIndex,@1,,AutoInsuranceQuotePage
+6,Browser,Wait for [<Data>] milli seconds,pause,@5000,,
+7,Next,"Wait for [<Object>] to be clickable ",clickByJS,,,AutoInsuranceQuotePage
+8,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+9,New,"Click the [<Object>] ",Click,,,VehicleDetailsPage
+10,Owned (financed),"Click the [<Object>] ",Click,,,VehicleDetailsPage
+11,Browser,Wait for [<Data>] milli seconds,pause,@1000,,
+12,Next,"Wait for [<Object>] to be clickable ",Click,,,AutoInsuranceQuotePage
+13,Browser,Wait for [<Data>] milli seconds,pause,@5000,,
+14,Next,Click on [<Object>],Click,,,VehicleDetailsPage
+15,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+16,EstimatedTotalDrivingDistance,Select item in [<Object>] which has text: [<Data>],selectByIndex,@5,,DrivingDistance
+17,Browser,Wait for [<Data>] milli seconds,pause,@1000,,
+18,Next,"Click the [<Object>] ",Click,,,DrivingDistance
+19,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+20,VehicleWithFourWinterTire,"Click the [<Object>] ",Click,,,SavingAndDiscounts
+21,AntiTheftFeature,Click on [<Object>],Click,,,SavingAndDiscounts
+22,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+23,Next,"Wait for [<Object>] to be clickable ",Click,,,SavingAndDiscounts
+24,Browser,Wait for [<Data>] milli seconds,pause,@5000,,
+25,Next,"Click the [<Object>] ",Click,,,SavingAndDiscounts

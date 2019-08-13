@@ -1,0 +1,15 @@
+<Root ref="JHInvestments" type="RC">
+<Folder ref="New Group">
+<Scenario ref="US3141 - JH Investments Home Page Options">
+<TestCase exeType="Executable" ref="user laucnhes JH Investments application"/>
+<TestCase exeType="Executable" ref="User is in home page"/>
+<TestCase exeType="Executable" ref="user will be able to see option for Dashboard"/>
+<TestCase exeType="Executable" ref="user will be able to see option for Investments"/>
+<TestCase exeType="Executable" ref="user will be able to see option for Fund Compare"/>
+<TestCase exeType="Executable" ref="user will be able to see option for View Points"/>
+<TestCase exeType="Executable" ref="user will be able to see option for Resources"/>
+<TestCase exeType="Executable" ref="user will be able to see option for About Us"/>
+<TestCase exeType="Executable" ref="user will be able to see option for Log in"/>
+</Scenario>
+</Folder>
+</Root>

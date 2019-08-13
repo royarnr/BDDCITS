@@ -1,0 +1,46 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Enter info manually,And  Enters Driver Details,Click,,,Driver
+2,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+3,firstName,Enter the value [<Data>] in the Field [<Object>],Set,@testFirstName,,Driver
+4,Browser,Wait for [<Data>] milli seconds,pause,@1000,,
+5,Last name,Enter the value [<Data>] in the Field [<Object>],Set,@testLastName,,Driver
+6,Browser,Wait for [<Data>] milli seconds,pause,@1000,,
+7,Next,"Click the [<Object>] ",Click,,,Driver
+8,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+9,year,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@1982,,DriverDateofBirth
+10,month,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Feb,,DriverDateofBirth
+11,day,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@11,,DriverDateofBirth
+12,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+13,Next,"Click the [<Object>] ",Click,,,DriverGenderMatitialStatus
+14,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+15,Male,"Click the [<Object>] ",Click,,,DriverGenderMatitialStatus
+16,Next,"Click the [<Object>] ",Click,,,DriverGenderMatitialStatus
+17,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+18,Single,"Click the [<Object>] ",Click,,,DriverGenderMatitialStatus
+19,Next,"Click the [<Object>] ",Click,,,DriverGenderMatitialStatus
+20,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+21,DriverAddress,Enter the value [<Data>] in the Field [<Object>],Set,"@15 - 21 odd, Rue Ontario E, Killarney, ON, P0M 2A0",,DriverAddressAndLicense
+22,Browser,Wait for [<Data>] milli seconds,pause,@5000,,
+23,FirstDDAddress,"Click the [<Object>] ",Click,,,DriverAddressAndLicense
+24,Driverllabel,"Click the [<Object>] ",Click,,,DriverAddressAndLicense
+25,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+"//26",StreetNumber,Enter the value [<Data>] in the Field [<Object>],Set,@10,,DriverAddressAndLicense
+"//27",UnitNumber,Enter the value [<Data>] in the Field [<Object>],Set,@1,,DriverAddressAndLicense
+28,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+29,Next,"Click the [<Object>] ",Click,,,DriverAddressAndLicense
+30,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+31,LicenseClass,"Click the [<Object>] ",Click,,,DriverAddressAndLicense
+32,LicenseAge,Enter the value [<Data>] in the Field [<Object>],Set,@16,,DriverAddressAndLicense
+33,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+34,Next,"Click the [<Object>] ",Click,,,DriverAddressAndLicense
+35,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+36,TicketInLast3years,"Click the [<Object>] ",Click,,,DrivingHistory
+37,LicenseSuspendInLast15Years,"Click the [<Object>] ",Click,,,DrivingHistory
+38,Browser,Wait for [<Data>] milli seconds,pause,@1000,,
+39,Next,"Click the [<Object>] ",Click,,,DrivingHistory
+40,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+41,None,"Click the [<Object>] ",Click,,,DrivingHistory
+42,ClaimInLast10years,"Click the [<Object>] ",Click,,,DrivingHistory
+43,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+44,Next,"Click the [<Object>] ",Click,,,DrivingHistory
+45,Browser,Wait for [<Data>] milli seconds,pause,@2000,,

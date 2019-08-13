@@ -1,0 +1,15 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,No,And  Enters Claims & History,Click,,,ClaimsAndHistory
+2,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+3,Next,"Click the [<Object>] ",Click,,,ClaimsAndHistory
+4,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+5,Next,"Click the [<Object>] ",Click,,,ClaimsAndHistory
+6,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+7,phone,Enter the value [<Data>] in the Field [<Object>],Set,@1234567890,,ClaimsAndHistory
+8,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+9,email,"Click the [<Object>] ",Click,,,ClaimsAndHistory
+10,email,Enter the value [<Data>] in the Field [<Object>],Set,@test@test.com,,ClaimsAndHistory
+11,agree,"Click the [<Object>] ",Click,,,ClaimsAndHistory
+12,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+13,GetAQuote,"Click the [<Object>] ",Click,,,ClaimsAndHistory
+14,Browser,Wait for [<Data>] milli seconds,pause,@10000,,

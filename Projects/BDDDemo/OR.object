@@ -1,0 +1,794 @@
+<Root type="OR" ref="BDDDemo">
+  <Page title="" ref="HomePage">
+    <ObjectGroup ref="TD Insurance Savings Commitmen">
+      <Object frame="" ref="TD Insurance Savings Commitmen">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div[4]/section/div/div" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/section/div/div)[1]" ref="xpath" pref="5"/>
+        <Property value="td-col td-col-xs-12 td-col-sm-8 td-col-sm-offset-4 td-col-md-8 td-col-md-offset-4 td-col-lg-7 td-col-lg-offset-4" ref="class" pref="6"/>
+        <Property value="html.js.flexbox flexboxlegacy no-touch rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent > body.td_rq_docs.td-second-level > div.td-contentarea > #aBanner0 > div.td-container.td-xs-full-bleed td-padding-0 td-banner-content > div.td-col.td-col-xs-12 td-col-sm-8 td-col-sm-offset-4 td-col-md-8 td-col-md-offset-4 td-col-lg-7 td-col-lg-offset-4" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Get a Car Quote">
+      <Object frame="" ref="Get a Car Quote">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[4]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/section/div/div/div/div/div/button)[1]" ref="xpath" pref="5"/>
+        <Property value="td-button td-button-primary td-button-large" ref="class" pref="6"/>
+        <Property value="html.js.flexbox flexboxlegacy no-touch rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent > body.td_rq_docs.td-second-level > div.td-contentarea > #aBanner0 > div.td-container.td-xs-full-bleed td-padding-0 td-banner-content > div.td-col.td-col-xs-12 td-col-sm-8 td-col-sm-offset-4 td-col-md-8 td-col-md-offset-4 td-col-lg-7 td-col-lg-offset-4 > div.td-a-banner-callout.td-a-banner-callout-transparent parallax-banner > div.td-row.callout-action > div.td-col.td-col-sm-12 td-col-md-6 > button.td-button.td-button-primary td-button-large" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Get a Home Quote">
+      <Object frame="" ref="Get a Home Quote">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[5]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/section/div/div/div/div/div[2]/button" ref="xpath" pref="5"/>
+        <Property value="td-button td-button-primary td-button-large" ref="class" pref="6"/>
+        <Property value="html.js.flexbox flexboxlegacy no-touch rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent > body.td_rq_docs.td-second-level > div.td-contentarea > #aBanner0 > div.td-container.td-xs-full-bleed td-padding-0 td-banner-content > div.td-col.td-col-xs-12 td-col-sm-8 td-col-sm-offset-4 td-col-md-8 td-col-md-offset-4 td-col-lg-7 td-col-lg-offset-4 > div.td-a-banner-callout.td-a-banner-callout-transparent parallax-banner > div.td-row.callout-action > div.td-col.td-col-sm-12 td-col-md-6 > button.td-button.td-button-primary td-button-large" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="AutoInsuranceQuotePage">
+    <ObjectGroup ref="Manual Input">
+      <Object frame="" ref="Manual Input">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.useVin.false" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Manual Input']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[2]/section/div[2]/div/ng-include/div/div[3]/ng-include/div/div/div/div/div/button)[1]" ref="xpath" pref="5"/>
+        <Property value="btn btn-toggle btn-block active" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-0 > div[name=&quot;yourVehicle&quot;] > div > ng-include > #quoterEngine.page.yourVehicle > div.margin-top-15.sm-max-width-50 md-max-width-35 padding-bottom-15 > ng-include > #quoterEngine.question.useVin > div.row.margin-top-10 > div.col-xs-12 > div.tab-shell.btn-group btn-group-justified margin-top-5 > div.tab-child.btn-group active focus > #quoterEngine.question.useVin.false" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="You are getting a quote in Ont">
+      <Object frame="" ref="You are getting a quote in Ont">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.selectedProvinceText-title" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='You are getting a quote in Ontario']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/section/div[2]/div/ng-include/div/div[5]/ng-include/div/ng-include/div/div/div" ref="xpath" pref="5"/>
+        <Property value="col-xs-12" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-0 > div[name=&quot;yourVehicle&quot;] > div > ng-include > #quoterEngine.page.yourVehicle > div.margin-top-15.sm-text-centered margin-top-35 > ng-include > div > ng-include > div > div.row > #quoterEngine.question.selectedProvinceText-title" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="quoterEngine.question.carYear.button">
+      <Object frame="" ref="quoterEngine.question.carYear.button">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.carYear.button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//select" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/section/div[2]/div/ng-include/div/div[4]/ng-include/div/div/div/div/div/select" ref="xpath" pref="5"/>
+        <Property value="ng-pristine ng-valid ng-empty ng-touched" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-0 > div[name=&quot;yourVehicle&quot;] > div > ng-include > #quoterEngine.page.yourVehicle > div.margin-top-15.sm-max-width-50 md-max-width-35 sm-padding-top-15 padding-bottom-5 > ng-include > #quoterEngine.question.carYear > div.row > div.col-xs-12 > div.btn-group.center-block drop-down margin-top-10 margin-bottom-10 > div.select > #quoterEngine.question.carYear.button" ref="css" pref="7"/>
+        <Property value="select-one" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="quoterEngine.question.carModel.button">
+      <Object frame="" ref="quoterEngine.question.carModel.button">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.carModel.button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[6]/ng-include/div/div/div/div/div/select" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/section/div[2]/div/ng-include/div/div[6]/ng-include/div/div/div/div/div/select" ref="xpath" pref="5"/>
+        <Property value="ng-pristine ng-untouched ng-valid ng-empty" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-0 > div[name=&quot;yourVehicle&quot;] > div > ng-include > #quoterEngine.page.yourVehicle > div.margin-top-15.sm-max-width-50 md-max-width-35 sm-padding-top-15 padding-bottom-5 > ng-include > #quoterEngine.question.carModel > div.row > div.col-xs-12 > div.btn-group.center-block drop-down margin-top-10 margin-bottom-10 > div.select > #quoterEngine.question.carModel.button" ref="css" pref="7"/>
+        <Property value="select-one" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Next">
+      <Object frame="" ref="Next">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.footerButton.next" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="quoterEngine.question.carMake.button Copy(1)">
+      <Object frame="" ref="quoterEngine.question.carMake.button Copy(1)">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.carMake.button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[5]/ng-include/div/div/div/div/div/select" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/section/div[2]/div/ng-include/div/div[5]/ng-include/div/div/div/div/div/select" ref="xpath" pref="5"/>
+        <Property value="ng-pristine ng-valid ng-empty ng-touched" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-0 > div[name=&quot;yourVehicle&quot;] > div > ng-include > #quoterEngine.page.yourVehicle > div.margin-top-15.sm-max-width-50 md-max-width-35 sm-padding-top-15 padding-bottom-5 > ng-include > #quoterEngine.question.carMake > div.row > div.col-xs-12 > div.btn-group.center-block drop-down margin-top-10 margin-bottom-10 > div.select > #quoterEngine.question.carMake.button" ref="css" pref="7"/>
+        <Property value="select-one" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Auto Insurance Quote">
+      <Object frame="" ref="Auto Insurance Quote">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Auto Insurance Quote']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/header/div/div/div/div[2]/span" ref="xpath" pref="5"/>
+        <Property value="text-bold" ref="class" pref="6"/>
+        <Property value="span.text-bold" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="VehicleDetailsPage">
+    <ObjectGroup ref="Vehicle Details">
+      <Object frame="" ref="Vehicle Details">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.page.carCondition-title-page" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Vehicle Details']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[9]/div/ng-include/div/ng-include/div/div/div/h1" ref="xpath" pref="5"/>
+        <Property value="margin-0 inline-block valign-top" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;carCondition&quot;] > div > ng-include > #quoterEngine.page.carCondition > ng-include > div > div.row.margin-top-40 xs-margin-bottom-30 margin-bottom-40 > div.col-md-12.sm-element-centered sm-text-centered > #quoterEngine.page.carCondition-title-page" ref="css" pref="7"/>
+        <Property value="h1" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="New">
+      <Object frame="" ref="New">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.carCondition.new" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='New']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/section/div[9]/div/ng-include/div/div/ng-include/div/div/div/div/div/button)[1]" ref="xpath" pref="5"/>
+        <Property value="btn btn-toggle btn-block" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;carCondition&quot;] > div > ng-include > #quoterEngine.page.carCondition > div.margin-top-15.sm-max-width-50 md-max-width-35 padding-bottom-15 > ng-include > #quoterEngine.question.carCondition > div.row.margin-top-10 > div.col-xs-12 > div.tab-shell.btn-group btn-group-justified margin-top-5 > div.tab-child.btn-group focus > #quoterEngine.question.carCondition.new" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Owned (financed)">
+      <Object frame="" ref="Owned (financed)">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.ownedOrLeased.financed" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Owned (financed)']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[9]/div/ng-include/div/div[2]/ng-include/div/div/div/div/div[2]/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-toggle btn-block" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;carCondition&quot;] > div > ng-include > #quoterEngine.page.carCondition > div.margin-top-15.sm-max-width-50 md-max-width-35 > ng-include > #quoterEngine.question.ownedOrLeased > div.row.margin-top-10 > div.col-xs-12 > div.tab-shell.btn-group btn-group-justified margin-top-5 > div.tab-child.btn-group focus > #quoterEngine.question.ownedOrLeased.financed" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Next">
+      <Object frame="" ref="Next">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.footerButton.next" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Driving Distance">
+      <Object frame="" ref="Driving Distance">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.page.carUsage-title-page" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Driving Distance']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[11]/div/ng-include/div/ng-include/div/div/div/h1" ref="xpath" pref="5"/>
+        <Property value="margin-0 inline-block valign-top" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;carUsage&quot;] > div > ng-include > #quoterEngine.page.carUsage > ng-include > div > div.row.margin-top-40 xs-margin-bottom-30 margin-bottom-40 > div.col-md-12.sm-element-centered sm-text-centered > #quoterEngine.page.carUsage-title-page" ref="css" pref="7"/>
+        <Property value="h1" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="quoterEngine.question.annualMileage.button">
+      <Object frame="" ref="quoterEngine.question.annualMileage.button">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.annualMileage.button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//select" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[11]/div/ng-include/div/div/ng-include/div/div/div/div/div/select" ref="xpath" pref="5"/>
+        <Property value="ng-pristine ng-untouched ng-valid ng-empty" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;carUsage&quot;] > div > ng-include > #quoterEngine.page.carUsage > div.margin-top-15.sm-max-width-50 md-max-width-35 > ng-include > #quoterEngine.question.annualMileage > div.row > div.col-xs-12 > div.btn-group.center-block drop-down margin-top-10 margin-bottom-10 > div.select > #quoterEngine.question.annualMileage.button" ref="css" pref="7"/>
+        <Property value="select-one" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Commuting">
+      <Object frame="" ref="Commuting">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.commuteButton" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[2]/ng-include/div/div[2]/div/div/div/button" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[11]/div/ng-include/div/div[2]/ng-include/div/div[2]/div/div/div/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-secondary-checkmark btn-block" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;carUsage&quot;] > div > ng-include > #quoterEngine.page.carUsage > div.margin-top-15 > ng-include > div.sm-max-width-50.md-max-width-35 > div.row > div.col-xs-12 > div > div.margin-top-5 > #quoterEngine.question.commuteButton" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Enter one-way driving distance">
+      <Object frame="" ref="Enter one-way driving distance">
+        <Property value="commuteKm" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.commuteKm" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Enter one-way driving distance']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[11]/div/ng-include/div/div[3]/ng-include/div/div/div/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-pristine ng-untouched ng-valid ng-valid-mask ng-empty" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;carUsage&quot;] > div > ng-include > #quoterEngine.page.carUsage > div.margin-top-15.sm-max-width-50 md-max-width-35 > ng-include > div.sm-element-centered.padding-bottom-20 padding-top-20 vds-background-mint-green margin-top-m15 > div.sm-element-centered.xs-padding-left-20 xs-padding-right-20 padding-left-15 padding-right-15 > div.input-group.display-block input-field margin-top-15 margin-bottom-10 > #quoterEngine.question.commuteKm" ref="css" pref="7"/>
+        <Property value="tel" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Savings and Discounts">
+      <Object frame="" ref="Savings and Discounts">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.page.savingsAndDiscounts-title-page" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Savings and Discounts']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[12]/div/ng-include/div/ng-include/div/div/div/h1" ref="xpath" pref="5"/>
+        <Property value="margin-0 inline-block valign-top" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;savingsAndDiscounts&quot;] > div > ng-include > #quoterEngine.page.savingsAndDiscounts > ng-include > div > div.row.margin-top-40 xs-margin-bottom-30 margin-bottom-40 > div.col-md-12.sm-element-centered sm-text-centered > #quoterEngine.page.savingsAndDiscounts-title-page" ref="css" pref="7"/>
+        <Property value="h1" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="DrivingDistance">
+    <ObjectGroup ref="EstimatedTotalDrivingDistance">
+      <Object frame="" ref="EstimatedTotalDrivingDistance">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.annualMileage.button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//select" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[11]/div/ng-include/div/div/ng-include/div/div/div/div/div/select" ref="xpath" pref="5"/>
+        <Property value="ng-pristine ng-valid ng-empty ng-touched" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;carUsage&quot;] > div > ng-include > #quoterEngine.page.carUsage > div.margin-top-15.sm-max-width-50 md-max-width-35 > ng-include > #quoterEngine.question.annualMileage > div.row > div.col-xs-12 > div.btn-group.center-block drop-down margin-top-10 margin-bottom-10 > div.select > #quoterEngine.question.annualMileage.button" ref="css" pref="7"/>
+        <Property value="select-one" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Commuting">
+      <Object frame="" ref="Commuting">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.commuteButton" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[2]/ng-include/div/div[2]/div/div/div/button" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[11]/div/ng-include/div/div[2]/ng-include/div/div[2]/div/div/div/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-secondary-checkmark btn-block" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;carUsage&quot;] > div > ng-include > #quoterEngine.page.carUsage > div.margin-top-15 > ng-include > div.sm-max-width-50.md-max-width-35 > div.row > div.col-xs-12 > div > div.margin-top-5 > #quoterEngine.question.commuteButton" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Enter one-way driving distance">
+      <Object frame="" ref="Enter one-way driving distance">
+        <Property value="commuteKm" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.commuteKm" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Enter one-way driving distance']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[11]/div/ng-include/div/div[3]/ng-include/div/div/div/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-pristine ng-untouched ng-valid ng-valid-mask ng-empty" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;carUsage&quot;] > div > ng-include > #quoterEngine.page.carUsage > div.margin-top-15.sm-max-width-50 md-max-width-35 > ng-include > div.sm-element-centered.padding-bottom-20 padding-top-20 vds-background-mint-green margin-top-m15 > div.sm-element-centered.xs-padding-left-20 xs-padding-right-20 padding-left-15 padding-right-15 > div.input-group.display-block input-field margin-top-15 margin-bottom-10 > #quoterEngine.question.commuteKm" ref="css" pref="7"/>
+        <Property value="tel" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Next">
+      <Object frame="" ref="Next">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.footerButton.next" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="SavingAndDiscounts">
+    <ObjectGroup ref="VehicleWithFourWinterTire">
+      <Object frame="" ref="VehicleWithFourWinterTire">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.winterTiresQuestion.false" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="AntiTheftFeature">
+      <Object frame="" ref="AntiTheftFeature">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.deviceInstallationQuestion.false" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Next">
+      <Object frame="" ref="Next">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.footerButton.next" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="SavingAndDiscuntLabel">
+      <Object frame="" ref="SavingAndDiscuntLabel">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.page.savingsAndDiscounts-title-page" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="Driver">
+    <ObjectGroup ref="Enter info manually">
+      <Object frame="" ref="Enter info manually">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.enterInfoManually" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Enter info manually']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[13]/div/ng-include/div/div[3]/ng-include/div/div[3]/div/div/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-secondary btn-block" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;fastTrackYourQuote&quot;] > div > ng-include > #quoterEngine.page.fastTrackYourQuote > div.margin-top-15 > ng-include > div > div.row.margin-top-10 > div.col-md-12 > div.margin-top-5.padding-bottom-10 sm-max-width-50 md-max-width-35 > #quoterEngine.question.enterInfoManually" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="firstName">
+      <Object frame="" ref="firstName">
+        <Property value="firstName" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.firstName" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div/div/section/div[15]/div/ng-include/div/div/ng-include/div/div[2]/div/div/input" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/section/div[15]/div/ng-include/div/div/ng-include/div/div[2]/div/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control ng-pristine ng-untouched ng-valid ng-empty ng-valid-minlength ng-valid-maxlength" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;driverName&quot;] > div > ng-include > #quoterEngine.page.driverName > div.margin-top-15 > ng-include > div.sm-max-width-50.md-max-width-35 > div.row.margin-top-10 margin-bottom-15 > div.col-xs-12 > div.input-field.padding-bottom-0 > #quoterEngine.question.firstName" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Last name">
+      <Object frame="" ref="Last name">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.lastName" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Next">
+      <Object frame="" ref="Next">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.footerButton.next" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="DriverDateofBirth">
+    <ObjectGroup ref="year">
+      <Object frame="" ref="year">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.dateOfBirth.year" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//select[@tdi-label-if-title-hidden=&quot;'labelYear'&quot;]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/section/div[16]/div/ng-include/div/div/ng-include/div/div[2]/div/div/div/div/select)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control ng-pristine ng-valid ng-empty ng-touched" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;dateOfBirth&quot;] > div > ng-include > #quoterEngine.page.dateOfBirth > div.margin-top-15.date-of-birth sm-max-width-50 md-max-width-35 > ng-include > div.margin-top-15 > div.row > div.col-xs-12 > #quoterEngine.question.dateOfBirth > div.col-xs-4.drop-down > div.select > #quoterEngine.question.dateOfBirth.year" ref="css" pref="7"/>
+        <Property value="select-one" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="month">
+      <Object frame="" ref="month">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.dateOfBirth.month" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//select[@tdi-label-if-title-hidden=&quot;'labelMonth'&quot;]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[16]/div/ng-include/div/div/ng-include/div/div[2]/div/div/div[2]/div/select" ref="xpath" pref="5"/>
+        <Property value="form-control ng-pristine ng-valid ng-empty ng-touched" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;dateOfBirth&quot;] > div > ng-include > #quoterEngine.page.dateOfBirth > div.margin-top-15.date-of-birth sm-max-width-50 md-max-width-35 > ng-include > div.margin-top-15 > div.row > div.col-xs-12 > #quoterEngine.question.dateOfBirth > div.col-xs-4.drop-down > div.select > #quoterEngine.question.dateOfBirth.month" ref="css" pref="7"/>
+        <Property value="select-one" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="day">
+      <Object frame="" ref="day">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.dateOfBirth.day" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//select[@tdi-label-if-title-hidden=&quot;'labelDay'&quot;]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[16]/div/ng-include/div/div/ng-include/div/div[2]/div/div/div[3]/div/select" ref="xpath" pref="5"/>
+        <Property value="form-control ng-pristine ng-untouched ng-valid ng-empty" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;dateOfBirth&quot;] > div > ng-include > #quoterEngine.page.dateOfBirth > div.margin-top-15.date-of-birth sm-max-width-50 md-max-width-35 > ng-include > div.margin-top-15 > div.row > div.col-xs-12 > #quoterEngine.question.dateOfBirth > div.col-xs-4.drop-down > div.select > #quoterEngine.question.dateOfBirth.day" ref="css" pref="7"/>
+        <Property value="select-one" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Next">
+      <Object frame="" ref="Next">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.footerButton.next" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Next']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/footer/div/div/div/div/div/div/div[2]/button" ref="xpath" pref="5"/>
+        <Property value="btn sm-text-centered btn-block margin-top-20 btn-primary" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.footer > div.container > div.margin-bottom-50 > div.row > div.col-md-12 > div.sm-max-width-55.md-max-width-50 > div.row.xs-display-grid xs-reorder half-gutter margin-top-30 padding-left-10 padding-right-10 > div.col-xs-12.text-center col-sm-6 > #quoterEngine.footerButton.next" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="DriverGenderMatitialStatus">
+    <ObjectGroup ref="Male">
+      <Object frame="" ref="Male">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.gender.M" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Next">
+      <Object frame="" ref="Next">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.footerButton.next" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Next']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/footer/div/div/div/div/div/div/div[2]/button" ref="xpath" pref="5"/>
+        <Property value="btn sm-text-centered btn-block margin-top-20 btn-primary" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.footer > div.container > div.margin-bottom-50 > div.row > div.col-md-12 > div.sm-max-width-55.md-max-width-50 > div.row.xs-display-grid xs-reorder half-gutter margin-top-30 padding-left-10 padding-right-10 > div.col-xs-12.text-center col-sm-6 > #quoterEngine.footerButton.next" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Single">
+      <Object frame="" ref="Single">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.maritalStatus.S" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Single']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/section/div[18]/div/ng-include/div/div/ng-include/div/div/div/button)[1]" ref="xpath" pref="5"/>
+        <Property value="btn-square btn-marital-status btn-block" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;maritalStatus&quot;] > div > ng-include > #quoterEngine.page.maritalStatus > div.margin-top-15 > ng-include > div > div.row.half-gutter margin-top-30 sm-max-width-50 padding-left-10 padding-right-10 > div.col-xs-4 > #quoterEngine.question.maritalStatus.S" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="DriverAddressAndLicense">
+    <ObjectGroup ref="DriverAddress">
+      <Object frame="" ref="DriverAddress">
+        <Property value="address_address" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.address_address" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="FirstDDAddress">
+      <Object frame="" ref="FirstDDAddress">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.address_address.addressList.0" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="StreetNumber">
+      <Object frame="" ref="StreetNumber">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="UnitNumber">
+      <Object frame="" ref="UnitNumber">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Next">
+      <Object frame="" ref="Next">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.footerButton.next" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="LicenseClass">
+      <Object frame="" ref="LicenseClass">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.currentLicenseClass.G2" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="LicenseAge">
+      <Object frame="" ref="LicenseAge">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.firstLicenseAgeIssued" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Driverllabel">
+      <Object frame="" ref="Driverllabel">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="progressBar.label.logoTheDriver" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="DrivingHistory">
+    <ObjectGroup ref="TicketInLast3years">
+      <Object frame="" ref="TicketInLast3years">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.hadTickets.false" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="LicenseSuspendInLast15Years">
+      <Object frame="" ref="LicenseSuspendInLast15Years">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.hadSuspensions.false" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Next">
+      <Object frame="" ref="Next">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.footerButton.next" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="None">
+      <Object frame="" ref="None">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.priorInsurer.NoPrior" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='None']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[23]/div/ng-include/div/div/ng-include/div/div/div/div/div[3]/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-toggle btn-block" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;claims&quot;] > div > ng-include > #quoterEngine.page.claims > div.margin-top-15.sm-max-width-50 md-max-width-35 > ng-include > #quoterEngine.question.priorInsurer > div.row.margin-top-10 > div.col-xs-12 > div.tab-shell.btn-group btn-group-justified margin-top-5 > div.tab-child.btn-group focus > #quoterEngine.question.priorInsurer.NoPrior" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="ClaimInLast10years">
+      <Object frame="" ref="ClaimInLast10years">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.hadClaims.false" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='No']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[23]/div/ng-include/div/div[2]/ng-include/div/div/div/div/div[2]/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-toggle btn-block" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;claims&quot;] > div > ng-include > #quoterEngine.page.claims > div.margin-top-15.sm-max-width-50 md-max-width-35 sm-padding-top-15 xs-margin-top-30 > ng-include > #quoterEngine.question.hadClaims > div.row.margin-top-10 > div.col-xs-12 > div.tab-shell.btn-group btn-group-justified margin-top-5 > div.tab-child.btn-group focus > #quoterEngine.question.hadClaims.false" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="No3">
+      <Object frame="" ref="No3">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.hadFraud.false" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='No']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[24]/div/ng-include/div/div/ng-include/div/div/div/div/div[2]/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-toggle btn-block" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;insuranceHistory&quot;] > div > ng-include > #quoterEngine.page.insuranceHistory > div.margin-top-15.sm-max-width-50 md-max-width-35 > ng-include > #quoterEngine.question.hadFraud > div.row.margin-top-10 > div.col-xs-12 > div.tab-shell.btn-group btn-group-justified margin-top-5 > div.tab-child.btn-group focus > #quoterEngine.question.hadFraud.false" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="ClaimsAndHistory">
+    <ObjectGroup ref="No">
+      <Object frame="" ref="No">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.hadFraud.false" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='No']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/section/div[24]/div/ng-include/div/div/ng-include/div/div/div/div/div[2]/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-toggle btn-block active" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.container > section.margin-top-68 > div[name=&quot;insuranceHistory&quot;] > div > ng-include > #quoterEngine.page.insuranceHistory > div.margin-top-15.sm-max-width-50 md-max-width-35 > ng-include > #quoterEngine.question.hadFraud > div.row.margin-top-10 > div.col-xs-12 > div.tab-shell.btn-group btn-group-justified margin-top-5 > div.tab-child.btn-group active focus > #quoterEngine.question.hadFraud.false" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Next">
+      <Object frame="" ref="Next">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.footerButton.next" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Next']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/footer/div/div/div/div/div/div/div[2]/button" ref="xpath" pref="5"/>
+        <Property value="btn sm-text-centered btn-block margin-top-20 btn-primary" ref="class" pref="6"/>
+        <Property value="html > body > div.ua-desktop > #quoterEngineShell.footer > div.container > div.margin-bottom-50 > div.row > div.col-md-12 > div.sm-max-width-55.md-max-width-50 > div.row.xs-display-grid xs-reorder half-gutter margin-top-30 padding-left-10 padding-right-10 > div.col-xs-12.text-center col-sm-6 > #quoterEngine.footerButton.next" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="phone">
+      <Object frame="" ref="phone">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[@id=&quot;quoterEngine.question.phoneNumber&quot;]" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="email">
+      <Object frame="" ref="email">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.email" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="agree">
+      <Object frame="" ref="agree">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.question.isConsentContactChecked" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="MonthlyPremium">
+      <Object frame="" ref="MonthlyPremium">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.quoterItem.yourQuote.monthlyPremium" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="GetAQuote">
+      <Object frame="" ref="GetAQuote">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="quoterEngine.footerButton.submit" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="Homeaddressdetails">
+    <ObjectGroup ref="Start typing a Canadian address here (Example: 1 Main St)">
+      <Object frame="" ref="Start typing a Canadian address here (Example: 1 Main St)">
+        <Property value="pca_search_keyword" ref="name" pref="1"/>
+        <Property value="pca_search_keyword" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Start typing a Canadian address here (Example: 1 Main St)']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[4]/div/form/div[2]/div/div/div[2]/div[2]/div/div/div/input" ref="xpath" pref="5"/>
+        <Property value="form-control addressSelected required" ref="class" pref="6"/>
+        <Property value="#pca_search_keyword" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="11200 Rue Ontario EMontréal-Es">
+      <Object frame="" ref="11200 Rue Ontario EMontréal-Es">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="PCA_ARIA_results_item0" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[@title='11200 Rue Ontario E']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[3]/div/div[2]/div)[1]" ref="xpath" pref="5"/>
+        <Property value="pcaitem pcafirstitem pcaselected" ref="class" pref="6"/>
+        <Property value="#PCA_ARIA_results_item0" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="2-152 Rue Ontario EMontréal, Q">
+      <Object frame="" ref="2-152 Rue Ontario EMontréal, Q">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="PCA_ARIA_results_item0" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[@title='2-152 Rue Ontario E']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[3]/div/div[2]/div)[1]" ref="xpath" pref="5"/>
+        <Property value="pcaitem pcafirstitem pcaselected" ref="class" pref="6"/>
+        <Property value="#PCA_ARIA_results_item0" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="For questions ortechnical supp">
+      <Object frame="" ref="For questions ortechnical supp">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="mb_sidebar_phone_support" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='For questions ortechnical support:1-888-791-5346']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div[2]/div[4]/div/form/div[2]/div[2]/div/div/div/div/p)[1]" ref="xpath" pref="5"/>
+        <Property value="td-copy-emphasized td-margin-bottom-large" ref="class" pref="6"/>
+        <Property value="#mb_sidebar_phone_support" ref="css" pref="7"/>
+        <Property value="p" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Next: Your home">
+      <Object frame="" ref="Next: Your home">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[@id=&quot;next_btn&quot;]/inpu" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

@@ -1,0 +1,3 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,US3141 - JH Investments Home Page Options,Validate JH Invetsments Home Page Options,Single,Failed,Chrome,Default,Any
+false,US3141 - JH Investments Home Page Options,Validate option for Log In,Single,NoRun,Chrome,Default,Any

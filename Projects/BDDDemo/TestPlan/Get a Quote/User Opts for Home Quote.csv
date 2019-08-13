@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+2,Get a Home Quote,Click on [<Object>],clickByJS,,,HomePage
+3,Browser,Wait for [<Data>] milli seconds,pause,@2000,,

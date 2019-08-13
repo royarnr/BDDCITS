@@ -1,0 +1,31 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://10.223.68.91:7010/PASJava/,,
+2,txtClientNo,Enter the value [<Data>] in the Field [<Object>],Set,@nathanu,,Login
+3,txtPersonalID,Enter the value [<Data>] in the Field [<Object>],Set,@nathanu,,Login
+4,btnLogin,"Click the [<Object>] ",Click,,,Login
+5,btnCreate,"Wait for [<Object>] to be visible ",waitForElementToBeVisible,,,Home
+6,linkAdvancedSearch,"Click the [<Object>] ",Click,,,Home
+7,dropdownPolicyStatus,"Wait for [<Object>] to be visible ",waitForElementToBeVisible,,,Home
+8,dropdownPolicyStatus,"Click the [<Object>] ",Click,,,Home
+9,optionActive,"Click the [<Object>] ",Click,,,Home
+10,btnSearch,"Click the [<Object>] ",Click,,,Home
+11,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+12,linkFirstPolicy,"Wait for [<Object>] to be visible ",waitForElementToBeVisible,,,Home
+13,linkFirstPolicy,"Click the [<Object>] ",clickByJS,,,Home
+14,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+15,linkAddActivity,"Click the [<Object>] ",waitForElementToBeVisible,,,Home
+16,linkAddActivity,"Click the [<Object>] ",Click,,,Home
+17,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+18,dropdownAddActivity,"Wait for [<Object>] to be visible ",waitForElementToBeVisible,,,Home
+19,dropdownAddActivity,"Click the [<Object>] ",Click,,,Home
+20,optionDeathNotification,"Click the [<Object>] ",Click,,,Home
+21,txtDeathDate,Enter the value [<Data>] in the Field [<Object>],Set,@5/9/2019,,Home
+22,btnOK,"Click the [<Object>] ",Click,,,Home
+23,Browser,Wait for [<Data>] milli seconds,pause,@8000,,
+24,linkActivities,"Wait for [<Object>] to be visible ",waitForElementToBeClickable,,,Home
+25,linkActivities,"Click the [<Object>] ",Click,,,Home
+26,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+27,btnProcess,"Wait for [<Object>] to be visible ",waitForElementToBeVisible,,,Home
+28,btnProcess,"Click the [<Object>] ",Click,,,Home
+29,Browser,Wait for Page to be loaded,pause,@8000,,
+30,policyStatus,Assert if [<Object>]'s Text Contains [<Data>],assertElementDisplayed,,,Home

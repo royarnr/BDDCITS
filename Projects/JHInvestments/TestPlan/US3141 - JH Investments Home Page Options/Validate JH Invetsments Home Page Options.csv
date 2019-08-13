@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,Given  user laucnhes JH Investments application,US3141 - JH Investments Home Page Options:user laucnhes JH Investments application,,,
+2,Execute,And  User is in home page,US3141 - JH Investments Home Page Options:User is in home page,,,
+3,Execute,Then  user will be able to see option for Dashboard,US3141 - JH Investments Home Page Options:user will be able to see option for Dashboard,,,
+4,Execute,Then  user will be able to see option for Investments,US3141 - JH Investments Home Page Options:user will be able to see option for Investments,,,
+5,Execute,Then  user will be able to see option for Fund Compare,US3141 - JH Investments Home Page Options:user will be able to see option for Fund Compare,,,
+6,Execute,Then  user will be able to see option for View Points,US3141 - JH Investments Home Page Options:user will be able to see option for View Points,,,
+7,Execute,Then  user will be able to see option for Resources,US3141 - JH Investments Home Page Options:user will be able to see option for Resources,,,
+8,Execute,Then  user will be able to see option for About Us,US3141 - JH Investments Home Page Options:user will be able to see option for About Us,,,

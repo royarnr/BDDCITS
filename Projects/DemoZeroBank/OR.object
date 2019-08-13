@@ -1,0 +1,126 @@
+<Root type="OR" ref="DemoZeroBank">
+  <Page title="" ref="HomePage">
+    <ObjectGroup ref="ZeroBank">
+      <Object frame="" ref="ZeroBank">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[1]/div[1]/div/div/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="BTN_SignIn">
+      <Object frame="" ref="BTN_SignIn">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="signin_button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="BTN_Submit">
+      <Object frame="" ref="BTN_Submit">
+        <Property value="submit" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object frame="" ref="Password">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="user_password" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="UserName">
+      <Object frame="" ref="UserName">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="user_login" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Error Msg">
+      <Object frame="" ref="Error Msg">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[@id=&quot;login_form&quot;]/div[1]" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login and/or password are wron">
+      <Object frame="" ref="Login and/or password are wron">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div/div[2]/div/div/div/form/div" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[2]/div/div/div/form/div)[1]" ref="xpath" pref="5"/>
+        <Property value="alert alert-error" ref="class" pref="6"/>
+        <Property value="div.alert.alert-error" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Logout">
+      <Object frame="" ref="Logout">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="logout_link" ref="id" pref="2"/>
+        <Property value="Logout" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Logout')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/div/div/ul/li[3]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#logout_link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="caret">
+      <Object frame="" ref="caret">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//li[3]/a/b" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/div/div/ul/li[3]/a/b" ref="xpath" pref="5"/>
+        <Property value="caret" ref="class" pref="6"/>
+        <Property value="html > body > div.wrapper > div.navbar.navbar-fixed-top > div.navbar-inner > div.container > #settingsBox > ul.nav.float-right > li.dropdown > a.dropdown-toggle > b.caret" ref="css" pref="7"/>
+        <Property value="b" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="AccountPage">
+    <ObjectGroup ref="AccountTab">
+      <Object frame="" ref="AccountTab">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[@id=&quot;account_summary_tab&quot;]/a" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,UserName,Password,Error Msg,URL
+Access to Zero Bank Portal,Unsuccessful logon to Zero Bank Portal,1,1,abc,abc,Login and/or password are wrong.,http://zero.webappsecurity.com/index.html
+Access to Zero Bank Portal,Successful logon to Zero Bank Portal,1,1,username,password,,http://zero.webappsecurity.com/index.html

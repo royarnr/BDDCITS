@@ -1,0 +1,480 @@
+[
+  {
+    "id": "Get a Quote",
+    "name": "Get a Quote",
+    "keyword": "Feature",
+    "uri": "//TestPlan/Get a Quote.feature",
+    "line": 1,
+    "tags": [],
+    "elements": [
+      {
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Car Insurance Quote in Ontario",
+        "description": "Car Insurance Quote in Ontario",
+        "line": 3,
+        "tags": [],
+        "steps": [
+          {
+            "name": "User is in TD Insurance Home Page",
+            "keyword": "When ",
+            "result": {
+              "duration": 16000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Get a Quote/User is in TD Insurance Home Page.csv"
+            },
+            "line": 4,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "T3BlbmVkIFVybDogaHR0cHM6Ly90ZGluc3VyYW5jZS5jb20\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnNDAwMA\u003d\u003d"
+              }
+            ]
+          },
+          {
+            "name": "User Opts for Car Quote",
+            "keyword": "When ",
+            "result": {
+              "duration": 20000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Get a Quote/User Opts for Car Quote.csv"
+            },
+            "line": 5,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gR2V0IGEgQ2FyIFF1b3Rl"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMTAwMDA\u003d"
+              }
+            ]
+          },
+          {
+            "name": "Validates Auto Inusrance Quote Screen",
+            "keyword": "When ",
+            "result": {
+              "duration": 1000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Get a Quote/Validates Auto Inusrance Quote Screen.csv"
+            },
+            "line": 6,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMTAwMA\u003d\u003d"
+              }
+            ]
+          },
+          {
+            "name": "Enters Car Details",
+            "keyword": "When ",
+            "result": {
+              "duration": 43000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Get a Quote/Enters Car Details.csv"
+            },
+            "line": 7,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "SXRlbS9zICc1JyBpcy9hcmUgc2VsZWN0ZWQgZnJvbSBsaXN0IHF1b3RlckVuZ2luZS5xdWVzdGlvbi5jYXJZZWFyLmJ1dHRvbg\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnNTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "SXRlbS9zICcyJyBpcy9hcmUgc2VsZWN0ZWQgZnJvbSBsaXN0IHF1b3RlckVuZ2luZS5xdWVzdGlvbi5jYXJNYWtlLmJ1dHRvbiBDb3B5KDEp"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnNTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "SXRlbS9zICcxJyBpcy9hcmUgc2VsZWN0ZWQgZnJvbSBsaXN0IHF1b3RlckVuZ2luZS5xdWVzdGlvbi5jYXJNb2RlbC5idXR0b24\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnNTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tlZCBvbiBOZXh0"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMzAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV3"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gT3duZWQgKGZpbmFuY2VkKQ\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnNTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMzAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "SXRlbS9zICc1JyBpcy9hcmUgc2VsZWN0ZWQgZnJvbSBsaXN0IEVzdGltYXRlZFRvdGFsRHJpdmluZ0Rpc3RhbmNl"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gVmVoaWNsZVdpdGhGb3VyV2ludGVyVGlyZQ\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gQW50aVRoZWZ0RmVhdHVyZQ\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnNTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              }
+            ]
+          },
+          {
+            "name": "Enters Driver Details",
+            "keyword": "When ",
+            "result": {
+              "duration": 47000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Get a Quote/Enters Driver Details.csv"
+            },
+            "line": 8,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gRW50ZXIgaW5mbyBtYW51YWxseQ\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMzAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "RW50ZXJlZCBUZXh0ICd0ZXN0Rmlyc3ROYW1lJyBvbiAnZmlyc3ROYW1lJw\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "RW50ZXJlZCBUZXh0ICd0ZXN0TGFzdE5hbWUnIG9uICdMYXN0IG5hbWUn"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMzAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "SXRlbS9zICcxOTgyJyBpcy9hcmUgc2VsZWN0ZWQgZnJvbSBsaXN0IHllYXI\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "SXRlbS9zICdGZWInIGlzL2FyZSBzZWxlY3RlZCBmcm9tIGxpc3QgbW9udGg\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "SXRlbS9zICcxMScgaXMvYXJlIHNlbGVjdGVkIGZyb20gbGlzdCBkYXk\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMzAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTWFsZQ\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gU2luZ2xl"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "RW50ZXJlZCBUZXh0ICcxNSAtIDIxIG9kZCwgUnVlIE9udGFyaW8gRSwgS2lsbGFybmV5LCBPTiwgUDBNIDJBMCcgb24gJ0RyaXZlckFkZHJlc3Mn"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnNTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gRmlyc3REREFkZHJlc3M\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gRHJpdmVybGxhYmVs"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTGljZW5zZUNsYXNz"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "RW50ZXJlZCBUZXh0ICcxNicgb24gJ0xpY2Vuc2VBZ2Un"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gVGlja2V0SW5MYXN0M3llYXJz"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTGljZW5zZVN1c3BlbmRJbkxhc3QxNVllYXJz"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMTAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTm9uZQ\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gQ2xhaW1Jbkxhc3QxMHllYXJz"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              }
+            ]
+          },
+          {
+            "name": "Enters Claims _ History",
+            "keyword": "When ",
+            "result": {
+              "duration": 23000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Get a Quote/Enters Claims _ History.csv"
+            },
+            "line": 9,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTm8\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gTmV4dA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "RW50ZXJlZCBUZXh0ICcxMjM0NTY3ODkwJyBvbiAncGhvbmUn"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gZW1haWw\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "RW50ZXJlZCBUZXh0ICd0ZXN0QHRlc3QuY29tJyBvbiAnZW1haWwn"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gYWdyZWU\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMzAwMA\u003d\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "Q2xpY2tpbmcgb24gR2V0QVF1b3Rl"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMTAwMDA\u003d"
+              }
+            ]
+          },
+          {
+            "name": "Quote Summary is Created",
+            "keyword": "When ",
+            "result": {
+              "duration": 12000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "//TestPlan/Get a Quote/Quote Summary is Created.csv"
+            },
+            "line": 10,
+            "embeddings": [
+              {
+                "mime_type": "text/html",
+                "data": "RWxlbWVudCBbTW9udGhseVByZW1pdW1dIGlzIFByZXNlbnQ\u003d"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "RWxlbWVudCB0ZXh0IFskMjc4LjI1Kl0gaXMgc3RvcmVkIGluIFRlc3REYXRhOk1vbnRobHlQcmVtaXVt"
+              },
+              {
+                "mime_type": "text/html",
+                "data": "VGhyZWFkIHNsZWVwIGZvciAnMjAwMA\u003d\u003d"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

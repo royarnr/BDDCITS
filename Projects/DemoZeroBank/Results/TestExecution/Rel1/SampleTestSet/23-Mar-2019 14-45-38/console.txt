@@ -1,0 +1,232 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_181
+java.home            : C:\Program Files\Java\jre1.8.0_181
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Sat Mar 23 14:45:38 IST 2019
+Loading Browser Profile
+Loading RunManager
+[Scenario:Access to Zero Bank Portal] [TestCase: Unsuccessful logon to Zero Bank Portal] [Description: Unsuccessful logon to Zero Bank Portal] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Access to Zero Bank Portal] [TestCase: Successful logon to Zero Bank Portal] [Description: Successful logon to Zero Bank Portal] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[2] TestCases selected for execution from [//Rel1/SampleTestSet]
+----------------------------------------------------------
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 32330
+Only local connections are allowed.
+[1553332594.145][WARNING]: Timed out connecting to Chrome, retrying...
+2019-03-23 14:46:43:03S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: TestData0:URL | Conditon:  | @23-Mar-2019 14:46:43.043
+[DONE]   | Opened Url: http://zero.webappsecurity.com/index.html
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @23-Mar-2019 14:47:34.034
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:3   | Object: ZeroBank | Action: verifyElementDisplayed | Input:  | Conditon:  | @23-Mar-2019 14:47:36.036
+Using @xpath [/html/body/div[1]/div[1]/div/div/a], Object 'ZeroBank' Found in 249 ms
+[PASS]   | Element [ZeroBank] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: BTN_SignIn | Action: Click | Input:  | Conditon:  | @23-Mar-2019 14:47:36.036
+Using @id [signin_button], Object 'BTN_SignIn' Found in 20 ms
+[DONE]   | Clicking on BTN_SignIn
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @23-Mar-2019 14:47:38.038
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:1   | Object: UserName | Action: Set | Input: TestData0:UserName | Conditon:  | @23-Mar-2019 14:47:40.040
+Using @id [user_login], Object 'UserName' Found in 20 ms
+[DONE]   | Entered Text 'abc' on 'UserName'
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @1000 | Conditon:  | @23-Mar-2019 14:47:41.041
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: Set | Input: TestData0:Password | Conditon:  | @23-Mar-2019 14:47:42.042
+Using @id [user_password], Object 'Password' Found in 26 ms
+[DONE]   | Entered Text 'abc' on 'Password'
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input: @1000 | Conditon:  | @23-Mar-2019 14:47:42.042
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+Step:5   | Object: BTN_Submit | Action: Click | Input:  | Conditon:  | @23-Mar-2019 14:47:43.043
+Using @name [submit], Object 'BTN_Submit' Found in 21 ms
+[DONE]   | Clicking on BTN_Submit
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @23-Mar-2019 14:47:47.047
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:1   | Object: Login and/or password are wron | Action: verifyElementDisplayed | Input:  | Conditon:  | @23-Mar-2019 14:47:49.049
+Using @xpath [(/html/body/div/div[2]/div/div/div/form/div)[1]], Object 'Login and/or password are wron' Found in 36 ms
+[PASS]   | Element [Login and/or password are wron] is Displayed
+
+===================================================================================================
+
+Step:2   | Object: Login and/or password are wron | Action: storeTextinDataSheet | Input: TestData0:Error Msg | Conditon:  | @23-Mar-2019 14:47:49.049
+Using @xpath [(/html/body/div/div[2]/div/div/div/form/div)[1]], Object 'Login and/or password are wron' Found in 25 ms
+Updating value in SubIteration 1
+[DONE]   | Element text [Login and/or password are wrong.] is stored in TestData0:Error Msg
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Access to Zero Bank Portal:Unsuccessful logon to Zero Bank Portal
+Executed Steps       : 13
+Passed Steps         : 13
+Failed Steps         : 0
+Time Taken           : 00:02:14
+-----------------------------------------------------
+
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 5193
+Only local connections are allowed.
+2019-03-23 14:48:01:03S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: TestData0:URL | Conditon:  | @23-Mar-2019 14:48:01.001
+[DONE]   | Opened Url: http://zero.webappsecurity.com/index.html
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @23-Mar-2019 14:50:40.040
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:3   | Object: ZeroBank | Action: verifyElementDisplayed | Input:  | Conditon:  | @23-Mar-2019 14:50:42.042
+Using @xpath [/html/body/div[1]/div[1]/div/div/a], Object 'ZeroBank' Found in 168 ms
+[PASS]   | Element [ZeroBank] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: BTN_SignIn | Action: Click | Input:  | Conditon:  | @23-Mar-2019 14:50:43.043
+Using @id [signin_button], Object 'BTN_SignIn' Found in 20 ms
+[DONE]   | Clicking on BTN_SignIn
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @23-Mar-2019 14:51:14.014
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:1   | Object: UserName | Action: Set | Input: TestData0:UserName | Conditon:  | @23-Mar-2019 14:51:16.016
+Using @id [user_login], Object 'UserName' Found in 18 ms
+[DONE]   | Entered Text 'username' on 'UserName'
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @1000 | Conditon:  | @23-Mar-2019 14:51:16.016
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: Set | Input: TestData0:Password | Conditon:  | @23-Mar-2019 14:51:17.017
+Using @id [user_password], Object 'Password' Found in 24 ms
+[DONE]   | Entered Text 'password' on 'Password'
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input: @1000 | Conditon:  | @23-Mar-2019 14:51:17.017
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+Step:5   | Object: BTN_Submit | Action: Click | Input:  | Conditon:  | @23-Mar-2019 14:51:18.018
+Using @name [submit], Object 'BTN_Submit' Found in 20 ms
+[DONE]   | Clicking on BTN_Submit
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @23-Mar-2019 14:51:25.025
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:1   | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @23-Mar-2019 14:51:27.027
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:2   | Object: AccountTab | Action: assertElementDisplayed | Input:  | Conditon:  | @23-Mar-2019 14:51:29.029
+Using @relative_xpath [//*[@id="account_summary_tab"]/a], Object 'AccountTab' Found in 69 ms
+[PASS]   | Element [AccountTab] is Displayed
+
+===================================================================================================
+
+Step:1   | Object: caret | Action: Click | Input:  | Conditon:  | @23-Mar-2019 14:51:30.030
+Using @relative_xpath [//li[3]/a/b], Object 'caret' Found in 22 ms
+[DONE]   | Clicking on caret
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @2000 | Conditon:  | @23-Mar-2019 14:51:30.030
+[DONE]   | Thread sleep for '2000
+
+===================================================================================================
+
+Step:3   | Object: Logout | Action: Click | Input:  | Conditon:  | @23-Mar-2019 14:51:32.032
+Using @id [logout_link], Object 'Logout' Found in 19 ms
+[DONE]   | Clicking on Logout
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input: @1000 | Conditon:  | @23-Mar-2019 14:51:33.033
+[DONE]   | Thread sleep for '1000
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Access to Zero Bank Portal:Successful logon to Zero Bank Portal
+Executed Steps       : 17
+Passed Steps         : 17
+Failed Steps         : 0
+Time Taken           : 00:03:43
+-----------------------------------------------------
+
+Run Finished on Sat Mar 23 14:51:38 IST 2019
+Generating BDD-Report...ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console. Set system property 'org.apache.logging.log4j.simplelog.StatusLogger.level' to TRACE to show Log4j2 internal initialization logging.
+Done!
+-----------------------------------------------------
+ExecutionDate        : 23-Mar-2019 14-45-38
+Executed TestCases   : 2
+Passed TestCases     : 2
+Failed TestCases     : 0
+Time Taken           : 00:06:05
+ReportPath           : file:///D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoZeroBank\Results\TestExecution\Rel1\SampleTestSet\23-Mar-2019 14-45-38\summary.html
+-----------------------------------------------------
